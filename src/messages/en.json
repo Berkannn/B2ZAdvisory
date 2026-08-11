@@ -296,7 +296,8 @@
       "submitting": "Sending...",
       "successTitle": "Thank you!",
       "successMessage": "Your message has been received. Our team will contact you shortly.",
-      "note": "This form is not yet connected to a backend; add an email service (e.g. Resend, SendGrid) or API integration before going live."
+      "errorMessage": "Something went wrong while sending your message. Please try again or email us directly.",
+      "note": "Your message is sent directly to our team by email."
     },
     "infoTitle": "Contact Information",
     "info": {

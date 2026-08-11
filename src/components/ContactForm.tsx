@@ -2,23 +2,35 @@
 
 import { useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
-import { CheckCircle2, Loader2, Send } from "lucide-react";
+import { AlertCircle, CheckCircle2, Loader2, Send } from "lucide-react";
 
 export default function ContactForm() {
   const t = useTranslations("contactPage.form");
-  const [status, setStatus] = useState<"idle" | "submitting" | "success">(
-    "idle",
-  );
+  const [status, setStatus] = useState<
+    "idle" | "submitting" | "success" | "error"
+  >("idle");
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setStatus("submitting");
 
-    // NOTE: This form is not yet wired to a backend. Connect it to an email
-    // service (e.g. Resend, SendGrid) or a custom API route before going live.
-    window.setTimeout(() => {
+    const form = event.currentTarget;
+    const data = Object.fromEntries(new FormData(form).entries());
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) throw new Error("request_failed");
+
       setStatus("success");
-    }, 700);
+      form.reset();
+    } catch {
+      setStatus("error");
+    }
   }
 
   if (status === "success") {
@@ -120,6 +132,13 @@ export default function ContactForm() {
           />
         </div>
       </div>
+
+      {status === "error" && (
+        <div className="mt-5 flex items-start gap-2.5 rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">
+          <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" />
+          <span>{t("errorMessage")}</span>
+        </div>
+      )}
 
       <button
         type="submit"

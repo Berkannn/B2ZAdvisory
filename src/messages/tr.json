@@ -296,7 +296,8 @@
       "submitting": "Gönderiliyor...",
       "successTitle": "Teşekkürler!",
       "successMessage": "Mesajınız alındı. Ekibimiz en kısa sürede sizinle iletişime geçecek.",
-      "note": "Bu form bir arka uca bağlı değildir; canlıya almadan önce bir e-posta servisi (ör. Resend, SendGrid) veya API entegrasyonu ekleyin."
+      "errorMessage": "Mesajınız gönderilirken bir sorun oluştu. Lütfen tekrar deneyin veya doğrudan e-posta ile ulaşın.",
+      "note": "Mesajınız doğrudan e-posta olarak ekibimize iletilir."
     },
     "infoTitle": "İletişim Bilgileri",
     "info": {

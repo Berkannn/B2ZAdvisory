@@ -55,6 +55,26 @@ src/
   middleware.ts                 # next-intl locale middleware
 ```
 
+## Contact form email setup
+
+The contact form ([`src/components/ContactForm.tsx`](src/components/ContactForm.tsx))
+posts to [`src/app/api/contact/route.ts`](src/app/api/contact/route.ts), which
+sends the submission by email via [Resend](https://resend.com).
+
+1. Create a free Resend account and generate an API key at
+   [resend.com/api-keys](https://resend.com/api-keys).
+2. Copy `.env.example` to `.env.local` and paste the key into
+   `RESEND_API_KEY`.
+3. Restart `npm run dev`. Submissions will arrive at `info@b2zadvisory.com`
+   by default — override with `CONTACT_TO_EMAIL`.
+4. Until you verify your own sending domain in the Resend dashboard, emails
+   are sent from Resend's shared test address and only deliver to the email
+   you signed up to Resend with. Once your domain is verified there, set
+   `CONTACT_FROM_EMAIL` to an address on that domain.
+5. In production, set the same environment variables in your hosting
+   provider's dashboard (e.g. Vercel → Project → Settings → Environment
+   Variables) — `.env.local` is not deployed.
+
 ## Editing content
 
 All page copy lives in [`src/messages/tr.json`](src/messages/tr.json) and
@@ -66,11 +86,11 @@ sync — TypeScript won't catch a missing key at build time.
 - **Contact details** (`contactPage.info` in both message files): currently
   `info@b2zadvisory.com`, a placeholder phone number, and a generic
   İstanbul/Levent address.
-- **Contact form** ([`src/components/ContactForm.tsx`](src/components/ContactForm.tsx)):
-  UI-only right now — it does not send anywhere. Wire it up to an email
-  service (Resend, SendGrid, etc.) or an API route before launch.
-- **Stats & figures** (`stats.items`, hero dashboard mock numbers): sample
-  marketing figures — replace with your real numbers.
+- **Contact form**: wired up to send email via Resend (see "Contact form
+  email setup" above) — you still need to add your own `RESEND_API_KEY`
+  before submissions will actually deliver.
+- **Hero dashboard mock numbers** (in [`src/components/Hero.tsx`](src/components/Hero.tsx)):
+  illustrative sample data — replace with real figures once available.
 - **Social links** in [`src/components/Footer.tsx`](src/components/Footer.tsx)
   point to generic `linkedin.com` / `twitter.com` — update to your actual
   profiles.
