@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.b2zadvisory.com/sitemap.xml",
+    sitemap: "https://www.b2zpartners.com/sitemap.xml",
   };
 }

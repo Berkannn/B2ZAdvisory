@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { getPathname } from "@/i18n/navigation";
 
-const baseUrl = "https://www.b2zadvisory.com";
+const baseUrl = "https://www.b2zpartners.com";
 
 const internalPaths = [
   "/",

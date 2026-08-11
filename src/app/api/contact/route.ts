@@ -7,7 +7,7 @@ import { Resend } from "resend";
 //
 //   RESEND_API_KEY     - API key from https://resend.com/api-keys
 //   CONTACT_TO_EMAIL    - inbox that should receive submissions (optional,
-//                          defaults to info@b2zadvisory.com)
+//                          defaults to info@b2zpartners.com)
 //   CONTACT_FROM_EMAIL  - verified sender address (optional, defaults to
 //                          Resend's shared test address, which only works
 //                          for sending to your own Resend account email
@@ -65,7 +65,7 @@ export async function POST(request: Request) {
   }
 
   const resend = new Resend(apiKey);
-  const toEmail = process.env.CONTACT_TO_EMAIL || "info@b2zadvisory.com";
+  const toEmail = process.env.CONTACT_TO_EMAIL || "info@b2zpartners.com";
   const fromEmail =
     process.env.CONTACT_FROM_EMAIL || "B2Z Advisory <onboarding@resend.dev>";
 

@@ -38,7 +38,7 @@ export async function generateMetadata({
       template: `%s | ${t("siteName")}`,
     },
     description: t("defaultDescription"),
-    metadataBase: new URL("https://www.b2zadvisory.com"),
+    metadataBase: new URL("https://www.b2zpartners.com"),
     alternates: {
       languages: { tr: "/tr", en: "/en" },
     },

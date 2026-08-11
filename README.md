@@ -65,7 +65,7 @@ sends the submission by email via [Resend](https://resend.com).
    [resend.com/api-keys](https://resend.com/api-keys).
 2. Copy `.env.example` to `.env.local` and paste the key into
    `RESEND_API_KEY`.
-3. Restart `npm run dev`. Submissions will arrive at `info@b2zadvisory.com`
+3. Restart `npm run dev`. Submissions will arrive at `info@b2zpartners.com`
    by default — override with `CONTACT_TO_EMAIL`.
 4. Until you verify your own sending domain in the Resend dashboard, emails
    are sent from Resend's shared test address and only deliver to the email
@@ -84,7 +84,7 @@ sync — TypeScript won't catch a missing key at build time.
 ## Before going live — placeholders to replace
 
 - **Contact details** (`contactPage.info` in both message files): currently
-  `info@b2zadvisory.com`, a placeholder phone number, and a generic
+  `info@b2zpartners.com`, a placeholder phone number, and a generic
   İstanbul/Levent address.
 - **Contact form**: wired up to send email via Resend (see "Contact form
   email setup" above) — you still need to add your own `RESEND_API_KEY`
@@ -97,7 +97,7 @@ sync — TypeScript won't catch a missing key at build time.
 - **Favicon** (`src/app/favicon.ico`): still the default Next.js icon.
 - **Domain**: `metadataBase` in
   [`src/app/[locale]/layout.tsx`](src/app/[locale]/layout.tsx) is set to
-  `https://www.b2zadvisory.com` — update once the real domain is live.
+  `https://www.b2zpartners.com` — update once the real domain is live.
 
 ## Adding a new page
 
