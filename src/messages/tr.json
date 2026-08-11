@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "siteName": "B2Z Advisory",
+    "tagline": "Business to Zero Carbon",
+    "defaultTitle": "B2Z Advisory | CBAM ve Sürdürülebilirlik Danışmanlığı",
+    "defaultDescription": "B2Z Advisory; AB Sınırda Karbon Düzenlemesi (CBAM) uyumluluğu, karbon ayak izi hesaplama ve sürdürülebilirlik stratejisi konularında uçtan uca danışmanlık sunar."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "cbam": "CBAM Nedir?",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "cta": "Ön Değerlendirme Alın"
+  },
+  "hero": {
+    "eyebrow": "AB Sınırda Karbon Düzenlemesi (CBAM) Danışmanlığı",
+    "title": "Karbon Sınır Düzenlemesinde",
+    "titleHighlight": "Sıfır Riskle İlerleyin",
+    "description": "B2Z Advisory, AB'ye ihracat yapan üreticilerin CBAM yükümlülüklerini uçtan uca yönetir: emisyon hesaplamasından raporlamaya, tedarik zinciri veri yönetiminden sıfır karbon yol haritasına kadar yanınızdayız.",
+    "primaryCta": "Ücretsiz Ön Değerlendirme",
+    "secondaryCta": "Hizmetlerimizi İnceleyin",
+    "badges": ["AB Metodolojisine Uyumlu", "Sektöre Özel Analiz", "Uçtan Uca Takip"],
+    "card": {
+      "scoreLabel": "CBAM Emisyon Skoru",
+      "facility": "Tesis #A-114",
+      "status": "Uyumlu",
+      "intensityLabel": "Emisyon Yoğunluğu",
+      "stat1": "tCO₂e",
+      "stat2": "Ürün",
+      "stat3": "Rapor",
+      "floatingTitle": "Net Sıfır Hedefi",
+      "floatingSubtitle": "2050 Yol Haritası"
+    }
+  },
+  "cbamIntro": {
+    "eyebrow": "CBAM NEDİR?",
+    "title": "Avrupa'nın Karbon Sınır Düzenlemesi, Artık Gündeminizde",
+    "description": "Carbon Border Adjustment Mechanism (CBAM), AB'ye demir-çelik, çimento, alüminyum, gübre, elektrik ve hidrojen ihraç eden şirketler için karbon raporlama ve ödeme yükümlülüğü getiriyor. Geçiş dönemi raporlamadan tam uygulamaya evriliyor ve hazırlıksız yakalanan işletmeler için ciddi maliyet riski oluşturuyor.",
+    "points": [
+      "Yıllık emisyon beyanı zorunluluğu",
+      "Tam uygulama döneminde CBAM sertifikası satın alma yükümlülüğü",
+      "Tedarik zincirinde veri toplama ve doğrulama karmaşıklığı"
+    ],
+    "linkLabel": "CBAM Hakkında Detaylı Bilgi Alın"
+  },
+  "services": {
+    "eyebrow": "HİZMETLERİMİZ",
+    "title": "CBAM ve Sürdürülebilirlik Danışmanlığında Uçtan Uca Çözümler",
+    "description": "Ön değerlendirmeden raporlamaya, tedarik zinciri yönetiminden net sıfır stratejisine kadar ihtiyacınız olan her adımda yanınızdayız.",
+    "linkLabel": "Tüm Hizmetleri İnceleyin",
+    "items": [
+      {
+        "key": "impactAnalysis",
+        "title": "CBAM Etki Analizi",
+        "description": "Ürün gruplarınızı ve ihracat hacimlerinizi analiz ederek CBAM kapsamındaki maliyet ve risk etkisini ortaya koyuyoruz."
+      },
+      {
+        "key": "emissionCalc",
+        "title": "Gömülü Emisyon Hesaplama",
+        "description": "AB metodolojisine uygun şekilde doğrudan ve dolaylı emisyonlarınızı ürün bazında hesaplıyoruz."
+      },
+      {
+        "key": "reporting",
+        "title": "CBAM Raporlama",
+        "description": "Yıllık CBAM raporlarınızı AB Geçiş Kayıt Sistemi'ne uygun formatta hazırlıyor ve sunum sürecini yönetiyoruz."
+      },
+      {
+        "key": "supplyChain",
+        "title": "Tedarik Zinciri Karbon Yönetimi",
+        "description": "Tedarikçilerinizden veri toplama süreçlerini kurguluyor, tedarik zincirinizin karbon performansını yönetiyoruz."
+      },
+      {
+        "key": "netZero",
+        "title": "Sıfır Karbon Yol Haritası",
+        "description": "Karbon azaltım hedeflerinizi, yatırım planınızı ve net sıfır stratejinizi birlikte tasarlıyoruz."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "SÜRECİMİZ",
+    "title": "Dört Adımda CBAM Uyumluluğu",
+    "description": "Şeffaf, adım adım ilerleyen bir metodoloji ile riskinizi azaltıyor, süreci ölçülebilir kılıyoruz.",
+    "steps": [
+      {
+        "title": "Ön Değerlendirme",
+        "description": "Ürün ve ihracat verilerinizi analiz ederek CBAM maruziyetinizi ve öncelikli aksiyon alanlarını belirliyoruz."
+      },
+      {
+        "title": "Veri Toplama & Hesaplama",
+        "description": "Tesis ve tedarikçi verilerini toplayarak AB metodolojisine uygun emisyon hesaplamalarını gerçekleştiriyoruz."
+      },
+      {
+        "title": "Raporlama & Uyum",
+        "description": "Yıllık beyanlarınızı hazırlıyoruz, CBAM Geçiş Kayıt Sistemi'ne yükleme sürecinizi yönetiyoruz."
+      },
+      {
+        "title": "İzleme & Optimizasyon",
+        "description": "Karbon maliyetlerinizi düşürecek aksiyonları belirliyor, süreci sürekli iyileştiriyoruz."
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "NEDEN B2Z ADVISORY?",
+    "title": "Sürdürülebilirliği İş Stratejinizin Merkezine Taşıyoruz",
+    "items": [
+      {
+        "title": "Sektör Uzmanlığı",
+        "description": "Demir-çelik, çimento, alüminyum ve gübre sektörlerinde derinlemesine deneyim."
+      },
+      {
+        "title": "Güncel Mevzuat Takibi",
+        "description": "AB Komisyonu düzenlemelerini yakından takip ederek süreçlerinizi güncel tutuyoruz."
+      },
+      {
+        "title": "Şeffaf Raporlama",
+        "description": "Her adımı anlaşılır raporlarla paylaşıyor, karar süreçlerinizi kolaylaştırıyoruz."
+      },
+      {
+        "title": "Uçtan Uca Destek",
+        "description": "Ön değerlendirmeden sıfır karbon stratejisine kadar tek bir ekiple çalışırsınız."
+      }
+    ]
+  },
+  "sectors": {
+    "eyebrow": "KAPSAM DAHİLİNDEKİ SEKTÖRLER",
+    "title": "CBAM'ın Doğrudan Etkilediği Sektörler",
+    "description": "AB'ye bu sektörlerde ihracat yapan işletmeler CBAM raporlama ve ödeme yükümlülüğüne tabidir.",
+    "list": [
+      "Demir & Çelik",
+      "Çimento",
+      "Alüminyum",
+      "Gübre",
+      "Elektrik Enerjisi",
+      "Hidrojen"
+    ]
+  },
+  "ctaBanner": {
+    "title": "CBAM Uyumluluğuna Bugün Başlayın",
+    "description": "Ücretsiz ön değerlendirme görüşmesiyle işletmenizin CBAM maruziyetini ve önceliklerinizi birlikte belirleyelim.",
+    "button": "Hemen İletişime Geçin"
+  },
+  "footer": {
+    "description": "B2Z Advisory, işletmelerin karbon sınır düzenlemelerine uyum sağlamasına ve sürdürülebilir büyüme stratejileri geliştirmesine destek olan bağımsız bir danışmanlık firmasıdır.",
+    "columnsTitle": {
+      "services": "Hizmetler",
+      "company": "Kurumsal",
+      "contact": "İletişim"
+    },
+    "rights": "Tüm hakları saklıdır.",
+    "placeholderNote": "info@b2zadvisory.com"
+  },
+  "about": {
+    "eyebrow": "HAKKIMIZDA",
+    "title": "İş Dünyasını Sıfır Karbona Taşıyan Ekip",
+    "intro": "B2Z Advisory, \"Business to Zero Carbon\" vizyonuyla kurulmuş, sürdürülebilirlik ve karbon mevzuatı odaklı bağımsız bir danışmanlık firmasıdır. AB'ye ihracat yapan üreticilerin CBAM yükümlülüklerini yönetilebilir, ölçülebilir ve rekabet avantajına dönüşebilir bir sürece dönüştürüyoruz.",
+    "missionTitle": "Misyonumuz",
+    "mission": "Karmaşık karbon mevzuatını, işletmelerin anlayabileceği ve uygulayabileceği net aksiyon planlarına dönüştürmek; sürdürülebilirliği bir yük değil, rekabet avantajı haline getirmek.",
+    "visionTitle": "Vizyonumuz",
+    "vision": "Bölgemizdeki üretici firmaların küresel karbon ekonomisine hazır, şeffaf ve düşük karbonlu iş modelleriyle rekabet ettiği bir gelecek inşa etmek.",
+    "valuesTitle": "Değerlerimiz",
+    "values": [
+      {
+        "title": "Şeffaflık",
+        "description": "Hesaplama metodolojimizi ve varsayımlarımızı her zaman açık şekilde paylaşırız."
+      },
+      {
+        "title": "Bilimsel Yaklaşım",
+        "description": "Kararlarımızı güncel AB mevzuatına ve doğrulanabilir verilere dayandırırız."
+      },
+      {
+        "title": "Ortaklık",
+        "description": "Müşterilerimizi tedarikçi değil, uzun soluklu bir çözüm ortağı olarak görürüz."
+      },
+      {
+        "title": "Sürekli Gelişim",
+        "description": "Değişen mevzuata ve teknolojiye ayak uydurarak hizmetlerimizi sürekli geliştiririz."
+      }
+    ],
+    "approachTitle": "Çalışma Şeklimiz",
+    "approachDescription": "Her müşteri için sektöre, ölçeğe ve ihracat profiline özel bir çalışma planı hazırlıyor; süreç boyunca düzenli raporlama ve danışmanlık desteği sunuyoruz."
+  },
+  "servicesPage": {
+    "eyebrow": "HİZMETLERİMİZ",
+    "title": "CBAM ve Sürdürülebilirlik Danışmanlığında Kapsamlı Destek",
+    "description": "İşletmenizin CBAM yolculuğunun her aşamasında; analiz, hesaplama, raporlama ve stratejik planlama konularında uzman desteği sunuyoruz.",
+    "items": [
+      {
+        "key": "impactAnalysis",
+        "title": "CBAM Etki Analizi",
+        "description": "Ürün gruplarınızı, ihracat hacimlerinizi ve hedef pazarlarınızı analiz ederek CBAM kapsamındaki maliyet ve risk etkisini sayısal olarak ortaya koyuyoruz.",
+        "bullets": [
+          "Ürün bazlı CBAM kapsam tespiti",
+          "Maliyet ve rekabet etkisi simülasyonu",
+          "Öncelikli aksiyon planı"
+        ]
+      },
+      {
+        "key": "emissionCalc",
+        "title": "Gömülü Emisyon Hesaplama",
+        "description": "AB'nin belirlediği hesaplama metodolojisine uygun şekilde ürün bazında doğrudan ve dolaylı emisyonlarınızı hesaplıyoruz.",
+        "bullets": [
+          "Tesis bazlı veri toplama şablonları",
+          "Doğrudan ve dolaylı emisyon hesaplaması",
+          "Doğrulamaya hazır dokümantasyon"
+        ]
+      },
+      {
+        "key": "reporting",
+        "title": "CBAM Raporlama",
+        "description": "Yıllık CBAM raporlarınızı AB Geçiş Kayıt Sistemi'ne uygun formatta hazırlıyor, zamanında ve eksiksiz sunum sürecini yönetiyoruz.",
+        "bullets": [
+          "Yıllık raporlama takvimi yönetimi",
+          "Sistem üzerinden veri girişi desteği",
+          "Hata ve tutarlılık kontrolü"
+        ]
+      },
+      {
+        "key": "supplyChain",
+        "title": "Tedarik Zinciri Karbon Yönetimi",
+        "description": "Tedarikçilerinizden emisyon verisi toplama süreçlerini kurguluyor, tedarik zincirinizin karbon performansını uçtan uca yönetiyoruz.",
+        "bullets": [
+          "Tedarikçi veri toplama süreç tasarımı",
+          "Tedarikçi karbon performans skorlaması",
+          "Düşük karbonlu tedarikçi geliştirme"
+        ]
+      },
+      {
+        "key": "netZero",
+        "title": "Sıfır Karbon Yol Haritası",
+        "description": "Karbon azaltım hedeflerinizi, yatırım önceliklerinizi ve net sıfır stratejinizi iş hedeflerinizle uyumlu şekilde birlikte tasarlıyoruz.",
+        "bullets": [
+          "Karbon azaltım senaryo analizi",
+          "Yatırım önceliklendirme",
+          "Net sıfır taahhüt ve izleme planı"
+        ]
+      }
+    ],
+    "ctaTitle": "Hangi Hizmetin Size Uygun Olduğundan Emin Değil Misiniz?",
+    "ctaDescription": "Ücretsiz ön değerlendirme görüşmesiyle ihtiyacınıza en uygun yol haritasını birlikte belirleyelim.",
+    "ctaButton": "Ücretsiz Görüşme Talep Edin"
+  },
+  "cbamPage": {
+    "eyebrow": "CBAM REHBERİ",
+    "title": "CBAM Nedir? Bilmeniz Gereken Her Şey",
+    "intro": "Carbon Border Adjustment Mechanism (CBAM / Sınırda Karbon Düzenleme Mekanizması), Avrupa Birliği'nin karbon sızıntısını önlemek ve AB dışındaki üreticileri de karbon maliyetine dahil etmek amacıyla yürürlüğe koyduğu bir düzenlemedir. AB'ye belirli ürün gruplarını ihraç eden şirketlerin, ürünlerinin üretim sürecinde ortaya çıkan sera gazı emisyonlarını raporlaması ve zamanla bu emisyonlar için ödeme yapması gerekmektedir.",
+    "whyTitle": "Neden Önemli?",
+    "whyDescription": "CBAM, AB'ye ihracat yapan şirketler için hem operasyonel hem de mali bir yükümlülük anlamına geliyor. Hazırlıksız yakalanan işletmeler, gecikmiş raporlama, eksik veri ve öngörülemeyen karbon maliyetleriyle rekabet gücünü kaybetme riskiyle karşı karşıya kalıyor.",
+    "timelineTitle": "Zaman Çizelgesi",
+    "timeline": [
+      {
+        "period": "Geçiş Dönemi",
+        "title": "Raporlama Yükümlülüğü",
+        "description": "Kapsamdaki ürünler için yıllık emisyon raporlaması zorunlu hale gelir; henüz mali ödeme yükümlülüğü bulunmaz."
+      },
+      {
+        "period": "Tam Uygulama Dönemi",
+        "title": "Sertifika Yükümlülüğü Başlar",
+        "description": "İthalatçılar, ürünlerin gömülü emisyonlarına karşılık gelen CBAM sertifikası satın almakla yükümlü hale gelir."
+      },
+      {
+        "period": "Sonraki Yıllar",
+        "title": "Kapsam Genişlemesi",
+        "description": "Düzenlemenin kapsamının ek sektörlere ve dolaylı emisyonlara genişletilmesi öngörülüyor."
+      }
+    ],
+    "sectorsTitle": "Kapsanan Sektörler",
+    "sectorsDescription": "Mevcut düzenleme aşağıdaki sektörlerden AB'ye yapılan ithalatı kapsamaktadır:",
+    "meaningTitle": "Şirketiniz İçin Ne Anlama Geliyor?",
+    "meaningPoints": [
+      "AB'ye ihracatınızın CBAM kapsamına girip girmediğinin netleştirilmesi gerekir",
+      "Tesis ve tedarikçi düzeyinde emisyon verisi toplama altyapısı kurulmalıdır",
+      "Raporlama takvimine uygun, doğrulanabilir bir süreç tasarlanmalıdır",
+      "Orta vadede karbon maliyetini azaltacak yatırım ve tedarikçi stratejisi geliştirilmelidir"
+    ],
+    "ctaTitle": "CBAM Maruziyetinizi Birlikte Değerlendirelim",
+    "ctaDescription": "Ücretsiz ön değerlendirme görüşmesiyle işletmenizin CBAM kapsamındaki durumunu netleştirelim.",
+    "ctaButton": "Ücretsiz Değerlendirme Talep Edin"
+  },
+  "contactPage": {
+    "eyebrow": "İLETİŞİM",
+    "title": "CBAM Yolculuğunuza Birlikte Başlayalım",
+    "description": "Formu doldurun veya doğrudan bize ulaşın; 1-2 iş günü içinde geri dönüş yapalım.",
+    "form": {
+      "name": "Ad Soyad",
+      "namePlaceholder": "Adınız Soyadınız",
+      "email": "E-posta",
+      "emailPlaceholder": "ornek@sirket.com",
+      "company": "Şirket",
+      "companyPlaceholder": "Şirket adınız",
+      "phone": "Telefon (opsiyonel)",
+      "phonePlaceholder": "05xx xxx xx xx",
+      "message": "Mesajınız",
+      "messagePlaceholder": "İhracat yaptığınız ürün grubu ve ihtiyacınız hakkında kısaca bilgi verin.",
+      "submit": "Mesajı Gönder",
+      "submitting": "Gönderiliyor...",
+      "successTitle": "Teşekkürler!",
+      "successMessage": "Mesajınız alındı. Ekibimiz en kısa sürede sizinle iletişime geçecek.",
+      "note": "Bu form bir arka uca bağlı değildir; canlıya almadan önce bir e-posta servisi (ör. Resend, SendGrid) veya API entegrasyonu ekleyin."
+    },
+    "infoTitle": "İletişim Bilgileri",
+    "info": {
+      "email": "info@b2zadvisory.com",
+      "phone": "+90 (212) 000 00 00",
+      "address": "Levent, İstanbul, Türkiye"
+    },
+    "hoursTitle": "Çalışma Saatleri",
+    "hours": "Pazartesi – Cuma, 09:00 – 18:00"
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa taşınmış veya kaldırılmış olabilir.",
+    "button": "Ana Sayfaya Dön"
+  }
+}

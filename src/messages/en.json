@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "siteName": "B2Z Advisory",
+    "tagline": "Business to Zero Carbon",
+    "defaultTitle": "B2Z Advisory | CBAM & Sustainability Consulting",
+    "defaultDescription": "B2Z Advisory provides end-to-end consulting on EU Carbon Border Adjustment Mechanism (CBAM) compliance, carbon footprint calculation, and sustainability strategy."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "cbam": "What is CBAM?",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get a Pre-Assessment"
+  },
+  "hero": {
+    "eyebrow": "EU Carbon Border Adjustment Mechanism (CBAM) Consulting",
+    "title": "Navigate the Carbon Border",
+    "titleHighlight": "With Zero Risk",
+    "description": "B2Z Advisory manages CBAM obligations end to end for manufacturers exporting to the EU: from emissions calculation to reporting, from supply chain data management to your net-zero roadmap.",
+    "primaryCta": "Free Pre-Assessment",
+    "secondaryCta": "Explore Our Services",
+    "badges": ["Aligned with EU Methodology", "Sector-Specific Analysis", "End-to-End Support"],
+    "card": {
+      "scoreLabel": "CBAM Emissions Score",
+      "facility": "Facility #A-114",
+      "status": "Compliant",
+      "intensityLabel": "Emission Intensity",
+      "stat1": "tCO₂e",
+      "stat2": "Products",
+      "stat3": "Report",
+      "floatingTitle": "Net-Zero Target",
+      "floatingSubtitle": "2050 Roadmap"
+    }
+  },
+  "cbamIntro": {
+    "eyebrow": "WHAT IS CBAM?",
+    "title": "Europe's Carbon Border Mechanism Is Now on Your Agenda",
+    "description": "The Carbon Border Adjustment Mechanism (CBAM) introduces carbon reporting and payment obligations for companies exporting iron & steel, cement, aluminium, fertilizers, electricity, and hydrogen to the EU. The transitional period is evolving from reporting into full implementation, creating a serious cost risk for unprepared businesses.",
+    "points": [
+      "Mandatory annual emissions declaration",
+      "Obligation to purchase CBAM certificates once full implementation begins",
+      "Complexity of collecting and verifying supply chain data"
+    ],
+    "linkLabel": "Get the Full CBAM Guide"
+  },
+  "services": {
+    "eyebrow": "OUR SERVICES",
+    "title": "End-to-End Solutions in CBAM & Sustainability Consulting",
+    "description": "From pre-assessment to reporting, from supply chain management to net-zero strategy, we support every step of your journey.",
+    "linkLabel": "View All Services",
+    "items": [
+      {
+        "key": "impactAnalysis",
+        "title": "CBAM Impact Analysis",
+        "description": "We analyze your product groups and export volumes to quantify the cost and risk impact of CBAM on your business."
+      },
+      {
+        "key": "emissionCalc",
+        "title": "Embedded Emissions Calculation",
+        "description": "We calculate your direct and indirect emissions per product, in line with the EU's calculation methodology."
+      },
+      {
+        "key": "reporting",
+        "title": "CBAM Reporting",
+        "description": "We prepare your annual CBAM reports in the required format and manage the submission process to the EU Transitional Registry."
+      },
+      {
+        "key": "supplyChain",
+        "title": "Supply Chain Carbon Management",
+        "description": "We design data collection processes with your suppliers and manage your supply chain's carbon performance."
+      },
+      {
+        "key": "netZero",
+        "title": "Net-Zero Roadmap",
+        "description": "We co-design your carbon reduction targets, investment plan, and net-zero strategy."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "OUR PROCESS",
+    "title": "CBAM Compliance in Four Steps",
+    "description": "A transparent, step-by-step methodology that reduces your risk and makes the process measurable.",
+    "steps": [
+      {
+        "title": "Pre-Assessment",
+        "description": "We analyze your product and export data to determine your CBAM exposure and priority action areas."
+      },
+      {
+        "title": "Data Collection & Calculation",
+        "description": "We collect facility and supplier data to perform emissions calculations aligned with the EU methodology."
+      },
+      {
+        "title": "Reporting & Compliance",
+        "description": "We prepare your annual filings and manage the submission process to the CBAM Transitional Registry."
+      },
+      {
+        "title": "Monitoring & Optimization",
+        "description": "We identify actions to reduce your carbon costs and continuously improve the process."
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "WHY B2Z ADVISORY?",
+    "title": "We Put Sustainability at the Core of Your Business Strategy",
+    "items": [
+      {
+        "title": "Sector Expertise",
+        "description": "Deep experience across iron & steel, cement, aluminium, and fertilizer sectors."
+      },
+      {
+        "title": "Up-to-Date Regulatory Tracking",
+        "description": "We closely follow EU Commission regulations to keep your processes current."
+      },
+      {
+        "title": "Transparent Reporting",
+        "description": "We share every step in clear reports, making your decision-making easier."
+      },
+      {
+        "title": "End-to-End Support",
+        "description": "You work with a single team, from pre-assessment through to your net-zero strategy."
+      }
+    ]
+  },
+  "sectors": {
+    "eyebrow": "SECTORS IN SCOPE",
+    "title": "Sectors Directly Affected by CBAM",
+    "description": "Businesses exporting to the EU in these sectors are subject to CBAM reporting and payment obligations.",
+    "list": [
+      "Iron & Steel",
+      "Cement",
+      "Aluminium",
+      "Fertilizers",
+      "Electricity",
+      "Hydrogen"
+    ]
+  },
+  "ctaBanner": {
+    "title": "Start Your CBAM Compliance Journey Today",
+    "description": "Let's define your business's CBAM exposure and priorities together in a free pre-assessment call.",
+    "button": "Get in Touch Now"
+  },
+  "footer": {
+    "description": "B2Z Advisory is an independent consulting firm helping businesses comply with carbon border regulations and build sustainable growth strategies.",
+    "columnsTitle": {
+      "services": "Services",
+      "company": "Company",
+      "contact": "Contact"
+    },
+    "rights": "All rights reserved.",
+    "placeholderNote": "info@b2zadvisory.com"
+  },
+  "about": {
+    "eyebrow": "ABOUT US",
+    "title": "The Team Moving Business to Zero Carbon",
+    "intro": "B2Z Advisory was founded on the vision of \"Business to Zero Carbon\" — an independent consulting firm focused on sustainability and carbon regulation. We turn CBAM obligations for EU-exporting manufacturers into a manageable, measurable process that can become a competitive advantage.",
+    "missionTitle": "Our Mission",
+    "mission": "To translate complex carbon regulation into clear action plans that businesses can understand and implement — turning sustainability from a burden into a competitive edge.",
+    "visionTitle": "Our Vision",
+    "vision": "To build a future where manufacturers in our region compete confidently in the global carbon economy with transparent, low-carbon business models.",
+    "valuesTitle": "Our Values",
+    "values": [
+      {
+        "title": "Transparency",
+        "description": "We always share our calculation methodology and assumptions openly."
+      },
+      {
+        "title": "Scientific Approach",
+        "description": "We base our decisions on current EU regulation and verifiable data."
+      },
+      {
+        "title": "Partnership",
+        "description": "We see our clients as long-term solution partners, not vendors."
+      },
+      {
+        "title": "Continuous Improvement",
+        "description": "We continuously evolve our services to keep pace with changing regulation and technology."
+      }
+    ],
+    "approachTitle": "How We Work",
+    "approachDescription": "We build a tailored work plan for every client based on sector, scale, and export profile, and provide regular reporting and advisory support throughout the process."
+  },
+  "servicesPage": {
+    "eyebrow": "OUR SERVICES",
+    "title": "Comprehensive Support in CBAM & Sustainability Consulting",
+    "description": "We provide expert support at every stage of your CBAM journey: analysis, calculation, reporting, and strategic planning.",
+    "items": [
+      {
+        "key": "impactAnalysis",
+        "title": "CBAM Impact Analysis",
+        "description": "We analyze your product groups, export volumes, and target markets to quantify the cost and risk impact of CBAM.",
+        "bullets": [
+          "Product-level CBAM scope determination",
+          "Cost and competitiveness impact simulation",
+          "Priority action plan"
+        ]
+      },
+      {
+        "key": "emissionCalc",
+        "title": "Embedded Emissions Calculation",
+        "description": "We calculate your direct and indirect emissions per product, in line with the EU's designated calculation methodology.",
+        "bullets": [
+          "Facility-level data collection templates",
+          "Direct and indirect emissions calculation",
+          "Verification-ready documentation"
+        ]
+      },
+      {
+        "key": "reporting",
+        "title": "CBAM Reporting",
+        "description": "We prepare your annual CBAM reports in the format required by the EU Transitional Registry and manage timely, complete submission.",
+        "bullets": [
+          "Annual reporting calendar management",
+          "Support with system data entry",
+          "Error and consistency checks"
+        ]
+      },
+      {
+        "key": "supplyChain",
+        "title": "Supply Chain Carbon Management",
+        "description": "We design emissions data collection processes with your suppliers and manage your supply chain's carbon performance end to end.",
+        "bullets": [
+          "Supplier data collection process design",
+          "Supplier carbon performance scoring",
+          "Low-carbon supplier development"
+        ]
+      },
+      {
+        "key": "netZero",
+        "title": "Net-Zero Roadmap",
+        "description": "We co-design your carbon reduction targets, investment priorities, and net-zero strategy in line with your business goals.",
+        "bullets": [
+          "Carbon reduction scenario analysis",
+          "Investment prioritization",
+          "Net-zero commitment and monitoring plan"
+        ]
+      }
+    ],
+    "ctaTitle": "Not Sure Which Service Is Right for You?",
+    "ctaDescription": "Let's define the roadmap that best fits your needs in a free pre-assessment call.",
+    "ctaButton": "Request a Free Consultation"
+  },
+  "cbamPage": {
+    "eyebrow": "CBAM GUIDE",
+    "title": "What Is CBAM? Everything You Need to Know",
+    "intro": "The Carbon Border Adjustment Mechanism (CBAM) is a European Union regulation designed to prevent carbon leakage and bring non-EU producers into the scope of carbon costs. Companies exporting certain product groups to the EU must report the greenhouse gas emissions generated during production, and over time, pay for those emissions.",
+    "whyTitle": "Why It Matters",
+    "whyDescription": "CBAM creates both operational and financial obligations for companies exporting to the EU. Businesses caught unprepared risk losing competitiveness through delayed reporting, incomplete data, and unpredictable carbon costs.",
+    "timelineTitle": "Timeline",
+    "timeline": [
+      {
+        "period": "Transitional Period",
+        "title": "Reporting Obligation",
+        "description": "Annual emissions reporting becomes mandatory for covered products; there is not yet a financial payment obligation."
+      },
+      {
+        "period": "Full Implementation",
+        "title": "Certificate Obligation Begins",
+        "description": "Importers become obligated to purchase CBAM certificates corresponding to the embedded emissions of their products."
+      },
+      {
+        "period": "Following Years",
+        "title": "Scope Expansion",
+        "description": "The regulation is expected to expand to additional sectors and to indirect emissions."
+      }
+    ],
+    "sectorsTitle": "Sectors Covered",
+    "sectorsDescription": "The current regulation covers imports to the EU from the following sectors:",
+    "meaningTitle": "What Does This Mean for Your Company?",
+    "meaningPoints": [
+      "You need clarity on whether your EU exports fall within CBAM scope",
+      "You need to build data collection infrastructure at the facility and supplier level",
+      "You need a verifiable process aligned with the reporting calendar",
+      "You need an investment and supplier strategy to reduce carbon costs over the medium term"
+    ],
+    "ctaTitle": "Let's Assess Your CBAM Exposure Together",
+    "ctaDescription": "Let's clarify your business's position within CBAM scope in a free pre-assessment call.",
+    "ctaButton": "Request a Free Assessment"
+  },
+  "contactPage": {
+    "eyebrow": "CONTACT",
+    "title": "Let's Start Your CBAM Journey Together",
+    "description": "Fill out the form or reach us directly — we'll get back to you within 1-2 business days.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "you@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company name",
+      "phone": "Phone (optional)",
+      "phonePlaceholder": "+90 5xx xxx xx xx",
+      "message": "Message",
+      "messagePlaceholder": "Briefly describe your exported product group and what you need help with.",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "successTitle": "Thank you!",
+      "successMessage": "Your message has been received. Our team will contact you shortly.",
+      "note": "This form is not yet connected to a backend; add an email service (e.g. Resend, SendGrid) or API integration before going live."
+    },
+    "infoTitle": "Contact Information",
+    "info": {
+      "email": "info@b2zadvisory.com",
+      "phone": "+90 (212) 000 00 00",
+      "address": "Levent, Istanbul, Türkiye"
+    },
+    "hoursTitle": "Business Hours",
+    "hours": "Monday – Friday, 9:00 AM – 6:00 PM"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for may have moved or no longer exists.",
+    "button": "Back to Home"
+  }
+}

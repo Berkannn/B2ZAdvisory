@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f7faf8;
+  --foreground: #182420;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .section-padding {
+    @apply px-6 py-20 sm:py-24 lg:px-8;
+  }
+
+  .container-page {
+    @apply mx-auto w-full max-w-7xl;
+  }
+
+  .badge-pill {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-4 py-1.5 text-sm font-medium text-brand-700;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3 text-sm font-semibold text-white shadow-sm shadow-brand-900/10 transition-all hover:bg-brand-700 hover:shadow-md active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-carbon-200 bg-white px-6 py-3 text-sm font-semibold text-carbon-800 shadow-sm transition-all hover:border-brand-300 hover:text-brand-700 active:scale-[0.98];
+  }
+
+  .btn-on-dark {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand-800 shadow-sm transition-all hover:bg-brand-50 active:scale-[0.98];
+  }
+
+  .card-surface {
+    @apply rounded-2xl border border-carbon-100 bg-white shadow-sm shadow-carbon-900/5;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-brand-600;
+  }
+}
+
+::selection {
+  background-color: #b8e4d1;
+  color: #163f33;
+}
