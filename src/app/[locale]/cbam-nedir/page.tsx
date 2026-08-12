@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import NextLink from "next/link";
 import {
   ArrowUpRight,
   Atom,
@@ -12,10 +13,20 @@ import {
   Zap,
   type LucideIcon,
 } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { Link, getPathname } from "@/i18n/navigation";
+import type { AppPathnames } from "@/i18n/routing";
 import SectionHeading from "@/components/SectionHeading";
+import { buildAlternates } from "@/lib/seo";
+import { getSectorPathnameKey, sectorIds, type SectorId } from "@/lib/sectors";
 
-const sectorIcons: LucideIcon[] = [Factory, Flame, Atom, Sprout, Zap, FlaskConical];
+const sectorIcons: Record<SectorId, LucideIcon> = {
+  "iron-steel": Factory,
+  cement: Flame,
+  aluminium: Atom,
+  fertilizers: Sprout,
+  electricity: Zap,
+  hydrogen: FlaskConical,
+};
 
 export async function generateMetadata({
   params,
@@ -23,8 +34,19 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "cbamPage" });
-  return { title: t("title") };
+  const tSeo = await getTranslations({ locale, namespace: "seo.cbamNedir" });
+
+  return {
+    title: tSeo("title"),
+    description: tSeo("description"),
+    alternates: buildAlternates("/cbam-nedir", locale),
+    openGraph: {
+      title: tSeo("title"),
+      description: tSeo("description"),
+      locale,
+      type: "website",
+    },
+  };
 }
 
 export default async function CbamPage({
@@ -33,17 +55,17 @@ export default async function CbamPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const localeTyped = locale as "tr" | "en";
   setRequestLocale(locale);
 
   const t = await getTranslations("cbamPage");
-  const tSectors = await getTranslations("sectors");
+  const tSectorNames = await getTranslations("sectorPages.items");
   const timeline = t.raw("timeline") as {
     period: string;
     title: string;
     description: string;
   }[];
   const meaningPoints = t.raw("meaningPoints") as string[];
-  const sectorList = tSectors.raw("list") as string[];
 
   return (
     <>
@@ -102,20 +124,25 @@ export default async function CbamPage({
             align="center"
           />
           <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-            {sectorList.map((sector, i) => {
-              const Icon = sectorIcons[i] ?? Factory;
+            {sectorIds.map((id) => {
+              const Icon = sectorIcons[id];
+              const href = getPathname({
+                href: getSectorPathnameKey(id) as AppPathnames,
+                locale: localeTyped,
+              });
               return (
-                <div
-                  key={sector}
-                  className="flex flex-col items-center gap-3 rounded-2xl border border-carbon-100 bg-white px-4 py-7 text-center"
+                <NextLink
+                  key={id}
+                  href={href}
+                  className="flex flex-col items-center gap-3 rounded-2xl border border-carbon-100 bg-white px-4 py-7 text-center transition-colors hover:border-brand-300 hover:bg-brand-50/60"
                 >
                   <span className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-50 text-brand-700">
                     <Icon className="h-5 w-5" />
                   </span>
                   <p className="text-sm font-medium text-carbon-800">
-                    {sector}
+                    {tSectorNames(`${id}.name`)}
                   </p>
-                </div>
+                </NextLink>
               );
             })}
           </div>

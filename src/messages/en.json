@@ -5,6 +5,24 @@
     "defaultTitle": "B2Z Advisory | CBAM & Sustainability Consulting",
     "defaultDescription": "B2Z Advisory provides end-to-end consulting on EU Carbon Border Adjustment Mechanism (CBAM) compliance, carbon footprint calculation, and sustainability strategy."
   },
+  "seo": {
+    "hizmetler": {
+      "title": "CBAM Consulting Services: Emissions Calculation & Reporting",
+      "description": "CBAM impact analysis, embedded emissions calculation, annual reporting, and supply chain carbon management for manufacturers exporting to the EU."
+    },
+    "cbamNedir": {
+      "title": "What Is CBAM? EU Carbon Border Adjustment Guide",
+      "description": "CBAM's scope, timeline, and obligations for iron & steel, cement, aluminium, fertilizer, electricity, and hydrogen exporters. Get a free pre-assessment."
+    },
+    "hakkimizda": {
+      "title": "About Us: Our Carbon Consulting Team",
+      "description": "B2Z Advisory is an independent consulting firm helping EU-exporting manufacturers navigate CBAM compliance and sustainability strategy."
+    },
+    "iletisim": {
+      "title": "Contact: Request a Free CBAM Pre-Assessment",
+      "description": "Get in touch about your CBAM obligations. Fill out the form and our expert team will respond within 1-2 business days."
+    }
+  },
   "nav": {
     "home": "Home",
     "services": "Services",
@@ -134,6 +152,120 @@
       "Electricity",
       "Hydrogen"
     ]
+  },
+  "sectorPages": {
+    "eyebrow": "SECTOR GUIDE",
+    "productsTitle": "Covered Product Groups",
+    "challengesTitle": "Sector-Specific Challenges",
+    "howWeHelpTitle": "How B2Z Advisory Helps",
+    "howWeHelpDescription": "We manage CBAM impact analysis, emissions calculation, and reporting specific to your sector — from data collection to verification-ready documentation.",
+    "howWeHelpLinkLabel": "Explore Our Services",
+    "relatedTitle": "Other CBAM Sectors",
+    "breadcrumbHome": "Home",
+    "breadcrumbCbam": "What is CBAM?",
+    "items": {
+      "iron-steel": {
+        "name": "Iron & Steel",
+        "seoTitle": "CBAM Consulting for Iron & Steel Exporters",
+        "seoDescription": "CBAM scope, emissions calculation, and reporting obligations for iron and steel products. Expert consulting for manufacturers exporting steel to the EU.",
+        "title": "CBAM Compliance in the Iron & Steel Sector",
+        "intro": "Manufacturers exporting crude steel, semi-finished steel products, and various iron and steel goods to the EU face CBAM reporting obligations and, over time, a requirement to purchase certificates. The sector's energy-intensive production routes (blast furnace, electric arc furnace) can make emissions calculation complex.",
+        "products": [
+          "Crude and semi-finished steel products",
+          "Rolled steel products such as sheet, profile, and pipe",
+          "Screws, bolts, and fasteners",
+          "Ferro-alloys"
+        ],
+        "challenges": [
+          "Accurately reflecting emissions differences between production routes such as blast furnace and electric arc furnace",
+          "Managing data collection complexity across a multi-stage production chain (raw material, intermediate, finished product)",
+          "Correctly including indirect (electricity-related) emissions in energy-intensive processes"
+        ]
+      },
+      "cement": {
+        "name": "Cement",
+        "seoTitle": "CBAM Consulting for Cement Exporters",
+        "seoDescription": "CBAM emissions calculation, reporting, and verification for cement and clinker exports. Consulting for manufacturers exporting cement to the EU.",
+        "title": "CBAM Compliance in the Cement Sector",
+        "intro": "Cement production has a high direct emissions intensity due to the calcination reaction in clinker production, making it one of the first sectors covered by CBAM. Manufacturers exporting cement and clinker to the EU must calculate and report their direct emissions per product in line with the EU methodology.",
+        "products": [
+          "Portland cement and various cement types",
+          "Cement clinker",
+          "Aluminous cement"
+        ],
+        "challenges": [
+          "Accurately measuring the high direct emissions from calcination in clinker production",
+          "Documenting the impact of kiln fuel mix (fossil vs. alternative fuel) on emissions calculation",
+          "Building facility-level continuous emissions monitoring infrastructure"
+        ]
+      },
+      "aluminium": {
+        "name": "Aluminium",
+        "seoTitle": "CBAM Consulting for Aluminium Exporters",
+        "seoDescription": "CBAM embedded emissions calculation and verification readiness for aluminium products. End-to-end consulting for manufacturers exporting aluminium to the EU.",
+        "title": "CBAM Compliance in the Aluminium Sector",
+        "intro": "Because aluminium production is electricity-intensive, accurately calculating indirect emissions — which depend on the source of the electricity used — is especially critical under CBAM. Manufacturers exporting unwrought aluminium, profiles, sheet, foil, and wire to the EU must report these emissions per product.",
+        "products": [
+          "Unwrought (primary) aluminium",
+          "Aluminium bars, profiles, and wire",
+          "Aluminium sheet, foil, and tube",
+          "Aluminium powder and flakes"
+        ],
+        "challenges": [
+          "Accurately calculating indirect emissions from the high electricity consumption of the electrolysis process",
+          "Documenting the emission factor based on the source of electricity used (grid vs. renewable)",
+          "Separating the emissions difference between secondary (recycled) and primary aluminium production"
+        ]
+      },
+      "fertilizers": {
+        "name": "Fertilizers",
+        "seoTitle": "CBAM Consulting for Fertilizer Exporters",
+        "seoDescription": "CBAM emissions calculation and reporting obligations for nitrogen-based fertilizer production. Expert consulting for manufacturers exporting fertilizers to the EU.",
+        "title": "CBAM Compliance in the Fertilizer Sector",
+        "intro": "The production of nitrogen-based fertilizers and their precursors (such as ammonia and nitric acid) is covered by CBAM due to both energy consumption and process-related greenhouse gas emissions, particularly N2O. Manufacturers exporting fertilizers to the EU must calculate and report these emissions per product.",
+        "products": [
+          "Ammonia",
+          "Nitric acid",
+          "Mixed fertilizers containing nitrogen, phosphorus, and potassium",
+          "Potassium nitrate"
+        ],
+        "challenges": [
+          "Accurately measuring and reporting N2O emissions from nitric acid production",
+          "Including natural-gas-related emissions from ammonia production in the calculation",
+          "Disaggregating product-level emissions for multi-component mixed fertilizers"
+        ]
+      },
+      "electricity": {
+        "name": "Electricity",
+        "seoTitle": "CBAM Consulting for Electricity Exporters",
+        "seoDescription": "Consulting on CBAM reporting obligations and direct emissions calculation for electricity exports to the EU.",
+        "title": "CBAM Compliance in the Electricity Sector",
+        "intro": "Manufacturers exporting electricity to the EU are required under CBAM to report the direct emissions generated from electricity production. Calculation in the electricity sector varies by generation source (thermal, natural gas, renewable, etc.) and requires a transparent, verifiable data infrastructure.",
+        "products": [
+          "Electricity exported to the EU"
+        ],
+        "challenges": [
+          "Accurately documenting emission factors that vary by generation source",
+          "Building measurement and verification infrastructure for cross-border electricity trade",
+          "Managing the gap between calculations based on actual data and default values"
+        ]
+      },
+      "hydrogen": {
+        "name": "Hydrogen",
+        "seoTitle": "CBAM Consulting for Hydrogen Exporters",
+        "seoDescription": "Consulting on CBAM emissions calculation, production-route-based reporting, and verification for hydrogen production and exports.",
+        "title": "CBAM Compliance in the Hydrogen Sector",
+        "intro": "Hydrogen can have very different emissions profiles depending on the production method — such as grey, blue, or green hydrogen. Manufacturers exporting hydrogen to the EU must calculate and report emissions specific to their production route under CBAM.",
+        "products": [
+          "Hydrogen"
+        ],
+        "challenges": [
+          "Correctly classifying the emissions profile based on production route (fossil-based, with carbon capture, renewable)",
+          "Documenting the impact of the energy source used in production on emissions calculation",
+          "Building verification and reporting infrastructure early in a still-developing market"
+        ]
+      }
+    }
   },
   "ctaBanner": {
     "title": "Start Your CBAM Compliance Journey Today",

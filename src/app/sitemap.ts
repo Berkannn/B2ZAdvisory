@@ -1,16 +1,18 @@
 import type { MetadataRoute } from "next";
-import { routing } from "@/i18n/routing";
+import { routing, type AppPathnames } from "@/i18n/routing";
 import { getPathname } from "@/i18n/navigation";
+import { getSectorPathnameKey, sectorIds } from "@/lib/sectors";
 
 const baseUrl = "https://www.b2zpartners.com";
 
-const internalPaths = [
+const internalPaths: AppPathnames[] = [
   "/",
   "/hizmetler",
   "/cbam-nedir",
   "/hakkimizda",
   "/iletisim",
-] as const;
+  ...sectorIds.map((id) => getSectorPathnameKey(id) as AppPathnames),
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return internalPaths.map((href) => ({

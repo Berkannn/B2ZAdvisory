@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Compass, Handshake, Microscope, RefreshCcw, Target } from "lucide-react";
 import CtaBanner from "@/components/CtaBanner";
 import SectionHeading from "@/components/SectionHeading";
+import { buildAlternates } from "@/lib/seo";
 
 const valueIcons = [Handshake, Microscope, Handshake, RefreshCcw];
 
@@ -12,8 +13,19 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "about" });
-  return { title: t("title") };
+  const tSeo = await getTranslations({ locale, namespace: "seo.hakkimizda" });
+
+  return {
+    title: tSeo("title"),
+    description: tSeo("description"),
+    alternates: buildAlternates("/hakkimizda", locale),
+    openGraph: {
+      title: tSeo("title"),
+      description: tSeo("description"),
+      locale,
+      type: "website",
+    },
+  };
 }
 
 export default async function AboutPage({
