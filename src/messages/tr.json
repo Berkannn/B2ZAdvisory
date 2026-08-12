@@ -5,6 +5,24 @@
     "defaultTitle": "B2Z Advisory | CBAM ve Sürdürülebilirlik Danışmanlığı",
     "defaultDescription": "B2Z Advisory; AB Sınırda Karbon Düzenlemesi (CBAM) uyumluluğu, karbon ayak izi hesaplama ve sürdürülebilirlik stratejisi konularında uçtan uca danışmanlık sunar."
   },
+  "seo": {
+    "hizmetler": {
+      "title": "CBAM Danışmanlık Hizmetleri: Emisyon Hesaplama ve Raporlama",
+      "description": "CBAM etki analizi, gömülü emisyon hesaplama, yıllık raporlama ve tedarik zinciri karbon yönetimi. AB'ye ihracat yapan üreticiler için uçtan uca danışmanlık."
+    },
+    "cbamNedir": {
+      "title": "CBAM Nedir? AB Sınırda Karbon Düzenlemesi Rehberi",
+      "description": "CBAM'ın kapsamı, zaman çizelgesi ve demir-çelik, çimento, alüminyum, gübre, elektrik, hidrojen sektörleri için getirdiği yükümlülükler. Ücretsiz ön değerlendirme alın."
+    },
+    "hakkimizda": {
+      "title": "Hakkımızda: Karbon Danışmanlığı Ekibimiz",
+      "description": "B2Z Advisory, AB'ye ihracat yapan üreticilere CBAM uyumluluğu ve sürdürülebilirlik stratejisinde bağımsız danışmanlık sunan uzman ekiptir."
+    },
+    "iletisim": {
+      "title": "İletişim: Ücretsiz CBAM Ön Değerlendirmesi Talep Edin",
+      "description": "CBAM yükümlülükleriniz hakkında bize ulaşın. Formu doldurun, 1-2 iş günü içinde uzman ekibimiz sizinle iletişime geçsin."
+    }
+  },
   "nav": {
     "home": "Ana Sayfa",
     "services": "Hizmetler",
@@ -134,6 +152,120 @@
       "Elektrik Enerjisi",
       "Hidrojen"
     ]
+  },
+  "sectorPages": {
+    "eyebrow": "SEKTÖR REHBERİ",
+    "productsTitle": "Kapsanan Ürün Grupları",
+    "challengesTitle": "Sektöre Özgü Zorluklar",
+    "howWeHelpTitle": "B2Z Advisory Nasıl Yardımcı Olur?",
+    "howWeHelpDescription": "Sektörünüze özgü CBAM etki analizi, emisyon hesaplama ve raporlama sürecini; veri toplamadan doğrulamaya hazır dokümantasyona kadar uçtan uca yönetiyoruz.",
+    "howWeHelpLinkLabel": "Hizmetlerimizi İnceleyin",
+    "relatedTitle": "Diğer CBAM Sektörleri",
+    "breadcrumbHome": "Ana Sayfa",
+    "breadcrumbCbam": "CBAM Nedir?",
+    "items": {
+      "iron-steel": {
+        "name": "Demir & Çelik",
+        "seoTitle": "Demir-Çelik İhracatçıları için CBAM Danışmanlığı",
+        "seoDescription": "Demir-çelik ürünlerinde CBAM kapsamı, emisyon hesaplama ve raporlama yükümlülükleri. AB'ye çelik ihraç eden üreticiler için uzman danışmanlık desteği.",
+        "title": "Demir-Çelik Sektöründe CBAM Uyumluluğu",
+        "intro": "AB'ye ham çelik, yarı mamul çelik ürünleri ve çeşitli demir-çelik mamulleri ihraç eden üreticiler, CBAM kapsamında emisyon raporlama ve zamanla sertifika satın alma yükümlülüğüyle karşı karşıyadır. Sektörün enerji yoğun üretim süreçleri (yüksek fırın, elektrik ark ocağı) emisyon hesaplamasını karmaşık hale getirebilir.",
+        "products": [
+          "Ham çelik ve yarı mamul çelik ürünleri",
+          "Sac, profil ve boru gibi haddelenmiş çelik ürünleri",
+          "Vida, cıvata ve bağlantı elemanları",
+          "Demir alaşımları (ferroalyajlar)"
+        ],
+        "challenges": [
+          "Yüksek fırın ve elektrik ark ocağı gibi farklı üretim yollarının emisyon farklılıklarının doğru yansıtılması",
+          "Çok aşamalı üretim zincirinde (hammadde-ara ürün-nihai ürün) veri toplama karmaşıklığı",
+          "Enerji yoğun süreçlerde dolaylı emisyonların (elektrik kaynaklı) hesaplamaya doğru şekilde dahil edilmesi"
+        ]
+      },
+      "cement": {
+        "name": "Çimento",
+        "seoTitle": "Çimento İhracatçıları için CBAM Danışmanlığı",
+        "seoDescription": "Çimento ve klinker ihracatında CBAM emisyon hesaplama, raporlama ve doğrulama süreçleri. AB'ye çimento ihraç eden üreticiler için danışmanlık.",
+        "title": "Çimento Sektöründe CBAM Uyumluluğu",
+        "intro": "Çimento üretimi, klinker üretim sürecindeki kalsinasyon reaksiyonu nedeniyle yüksek doğrudan emisyon yoğunluğuna sahiptir ve CBAM'ın ilk kapsadığı sektörlerden biridir. AB'ye çimento ve klinker ihraç eden üreticilerin, ürün bazında doğrudan emisyonlarını AB metodolojisine uygun şekilde hesaplaması ve raporlaması gerekir.",
+        "products": [
+          "Portland çimentosu ve çeşitli çimento türleri",
+          "Çimento klinkeri",
+          "Alüminli çimento"
+        ],
+        "challenges": [
+          "Klinker üretimindeki kalsinasyon kaynaklı yüksek doğrudan emisyonların doğru ölçülmesi",
+          "Fırın yakıt karışımının (fosil yakıt/alternatif yakıt) emisyon hesaplamasına etkisinin belgelenmesi",
+          "Tesis bazlı sürekli emisyon izleme altyapısının kurulması"
+        ]
+      },
+      "aluminium": {
+        "name": "Alüminyum",
+        "seoTitle": "Alüminyum İhracatçıları için CBAM Danışmanlığı",
+        "seoDescription": "Alüminyum ürünlerinde CBAM gömülü emisyon hesaplama ve doğrulama hazırlığı. AB'ye alüminyum ihraç eden üreticiler için uçtan uca danışmanlık.",
+        "title": "Alüminyum Sektöründe CBAM Uyumluluğu",
+        "intro": "Alüminyum üretimi elektrik yoğun bir süreç olduğundan, CBAM kapsamında dolaylı emisyonların (kullanılan elektriğin kaynağına bağlı) doğru hesaplanması özellikle kritik önem taşır. AB'ye ham alüminyum, alüminyum profil, levha, folyo ve tel gibi ürünler ihraç eden üreticilerin bu emisyonları ürün bazında raporlaması gerekir.",
+        "products": [
+          "İşlenmemiş (ham) alüminyum",
+          "Alüminyum çubuk, profil ve tel",
+          "Alüminyum levha, folyo ve boru",
+          "Alüminyum tozu ve pul pul alüminyum"
+        ],
+        "challenges": [
+          "Elektroliz sürecinin yüksek elektrik tüketiminden kaynaklanan dolaylı emisyonların doğru hesaplanması",
+          "Kullanılan elektriğin kaynağına (şebeke/yenilenebilir) göre emisyon faktörünün belgelenmesi",
+          "Geri dönüştürülmüş (ikincil) alüminyum ile birincil alüminyum üretiminin emisyon farkının ayrıştırılması"
+        ]
+      },
+      "fertilizers": {
+        "name": "Gübre",
+        "seoTitle": "Gübre İhracatçıları için CBAM Danışmanlığı",
+        "seoDescription": "Azotlu gübre üretiminde CBAM emisyon hesaplama ve raporlama yükümlülükleri. AB'ye gübre ihraç eden üreticiler için uzman danışmanlık desteği.",
+        "title": "Gübre Sektöründe CBAM Uyumluluğu",
+        "intro": "Azot bazlı gübrelerin ve ara ürünlerinin (amonyak, nitrik asit gibi) üretimi, hem enerji tüketimi hem de proses kaynaklı sera gazı emisyonları (özellikle N2O) nedeniyle CBAM kapsamına alınmıştır. AB'ye gübre ihraç eden üreticilerin bu emisyonları ürün bazında hesaplaması ve raporlaması gerekir.",
+        "products": [
+          "Amonyak",
+          "Nitrik asit",
+          "Azot, fosfor ve potasyum içeren karma gübreler",
+          "Potasyum nitrat"
+        ],
+        "challenges": [
+          "Nitrik asit üretimindeki N2O emisyonlarının doğru ölçülmesi ve raporlanması",
+          "Amonyak üretiminde kullanılan doğal gaz kaynaklı emisyonların hesaplamaya dahil edilmesi",
+          "Çok bileşenli karma gübrelerde ürün bazlı emisyon ayrıştırması"
+        ]
+      },
+      "electricity": {
+        "name": "Elektrik Enerjisi",
+        "seoTitle": "Elektrik İhracatçıları için CBAM Danışmanlığı",
+        "seoDescription": "AB'ye elektrik ihracatında CBAM raporlama yükümlülükleri ve doğrudan emisyon hesaplama süreçleri hakkında danışmanlık.",
+        "title": "Elektrik Sektöründe CBAM Uyumluluğu",
+        "intro": "AB'ye elektrik ihraç eden üreticiler, CBAM kapsamında elektrik üretiminden kaynaklanan doğrudan emisyonları raporlamakla yükümlüdür. Elektrik sektöründe hesaplama, üretim kaynağına (termik, doğal gaz, yenilenebilir vb.) göre farklılık gösterir ve şeffaf, doğrulanabilir bir veri altyapısı gerektirir.",
+        "products": [
+          "AB'ye ihraç edilen elektrik enerjisi"
+        ],
+        "challenges": [
+          "Üretim kaynağına göre değişen emisyon faktörlerinin doğru belgelenmesi",
+          "Sınır ötesi elektrik ticaretinde ölçüm ve doğrulama altyapısının kurulması",
+          "Gerçek verilere dayalı hesaplama ile varsayılan değerler arasındaki farkın yönetilmesi"
+        ]
+      },
+      "hydrogen": {
+        "name": "Hidrojen",
+        "seoTitle": "Hidrojen İhracatçıları için CBAM Danışmanlığı",
+        "seoDescription": "Hidrojen üretim ve ihracatında CBAM emisyon hesaplama, üretim rotası bazlı raporlama ve doğrulama süreçleri hakkında danışmanlık.",
+        "title": "Hidrojen Sektöründe CBAM Uyumluluğu",
+        "intro": "Hidrojen, üretim yöntemine bağlı olarak çok farklı emisyon profillerine sahip olabilir (gri, mavi, yeşil hidrojen gibi). AB'ye hidrojen ihraç eden üreticilerin, CBAM kapsamında üretim rotalarına özgü emisyonlarını hesaplaması ve raporlaması gerekir.",
+        "products": [
+          "Hidrojen"
+        ],
+        "challenges": [
+          "Üretim rotasına (fosil kaynaklı, karbon yakalamalı, yenilenebilir) göre emisyon profilinin doğru sınıflandırılması",
+          "Üretim sürecindeki enerji kaynağının emisyon hesaplamasına etkisinin belgelenmesi",
+          "Gelişmekte olan bir pazarda doğrulama ve raporlama altyapısının erken kurulması"
+        ]
+      }
+    }
   },
   "ctaBanner": {
     "title": "CBAM Uyumluluğuna Bugün Başlayın",

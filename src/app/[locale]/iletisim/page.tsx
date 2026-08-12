@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Clock, Mail, Phone } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 import SectionHeading from "@/components/SectionHeading";
+import { buildAlternates } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -10,8 +11,19 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "contactPage" });
-  return { title: t("title") };
+  const tSeo = await getTranslations({ locale, namespace: "seo.iletisim" });
+
+  return {
+    title: tSeo("title"),
+    description: tSeo("description"),
+    alternates: buildAlternates("/iletisim", locale),
+    openGraph: {
+      title: tSeo("title"),
+      description: tSeo("description"),
+      locale,
+      type: "website",
+    },
+  };
 }
 
 export default async function ContactPage({

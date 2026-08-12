@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import OrganizationJsonLd from "@/components/OrganizationJsonLd";
 import "../globals.css";
 
 const inter = Inter({
@@ -48,6 +49,13 @@ export async function generateMetadata({
       siteName: t("siteName"),
       locale,
       type: "website",
+      images: [{ url: "/logo-mark.png", width: 512, height: 512 }],
+    },
+    twitter: {
+      card: "summary",
+      title: t("defaultTitle"),
+      description: t("defaultDescription"),
+      images: ["/logo-mark.png"],
     },
   };
 }
@@ -68,10 +76,16 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   const messages = await getMessages();
+  const t = await getTranslations({ locale, namespace: "meta" });
 
   return (
     <html lang={locale} className={`${inter.variable} ${manrope.variable}`}>
       <body className="flex min-h-screen flex-col bg-paper font-sans text-carbon-800 antialiased">
+        <OrganizationJsonLd
+          locale={locale}
+          name={t("siteName")}
+          description={t("defaultDescription")}
+        />
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="flex-1">{children}</main>

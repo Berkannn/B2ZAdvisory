@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import SectionHeading from "@/components/SectionHeading";
+import { buildAlternates } from "@/lib/seo";
 
 const icons: Record<string, LucideIcon> = {
   impactAnalysis: SearchCheck,
@@ -29,8 +30,19 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "servicesPage" });
-  return { title: t("title") };
+  const tSeo = await getTranslations({ locale, namespace: "seo.hizmetler" });
+
+  return {
+    title: tSeo("title"),
+    description: tSeo("description"),
+    alternates: buildAlternates("/hizmetler", locale),
+    openGraph: {
+      title: tSeo("title"),
+      description: tSeo("description"),
+      locale,
+      type: "website",
+    },
+  };
 }
 
 export default async function ServicesPage({
@@ -49,8 +61,25 @@ export default async function ServicesPage({
     bullets: string[];
   }[];
 
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "Service",
+      position: i + 1,
+      name: item.title,
+      description: item.description,
+      provider: { "@type": "Organization", name: "B2Z Advisory" },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
       <section className="section-padding bg-paper !pb-10">
         <div className="container-page">
           <SectionHeading

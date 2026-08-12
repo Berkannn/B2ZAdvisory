@@ -21,6 +21,15 @@ export const routing = defineRouting({
       tr: "/iletisim",
       en: "/contact",
     },
+    // Sector slugs are intentionally identical across locales — see the
+    // comment in src/lib/sectors.ts for why a dynamic segment can't safely
+    // carry a per-locale translated value here.
+    "/cbam/demir-celik": "/cbam/demir-celik",
+    "/cbam/cimento": "/cbam/cimento",
+    "/cbam/aluminyum": "/cbam/aluminyum",
+    "/cbam/gubre": "/cbam/gubre",
+    "/cbam/elektrik": "/cbam/elektrik",
+    "/cbam/hidrojen": "/cbam/hidrojen",
   },
 });
 
