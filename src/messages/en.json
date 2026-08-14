@@ -11,8 +11,8 @@
       "description": "CBAM impact analysis, embedded emissions calculation, annual reporting, and supply chain carbon management for manufacturers exporting to the EU."
     },
     "cbamNedir": {
-      "title": "What Is CBAM? EU Carbon Border Adjustment Guide",
-      "description": "CBAM's scope, timeline, and obligations for iron & steel, cement, aluminium, fertilizer, electricity, and hydrogen exporters. Get a free pre-assessment."
+      "title": "What Is CBAM? Your Guide to the 2026 Definitive Period",
+      "description": "CBAM's scope, obligations across 6 sectors, actual vs. default values, and the transition to the 2026 definitive period — with in-depth guides on verification, reporting, and cost."
     },
     "hakkimizda": {
       "title": "About Us: Our Carbon Consulting Team",
@@ -374,30 +374,32 @@
   },
   "cbamPage": {
     "eyebrow": "CBAM GUIDE",
-    "title": "What Is CBAM? Everything You Need to Know",
-    "intro": "The Carbon Border Adjustment Mechanism (CBAM) is a European Union regulation designed to prevent carbon leakage and bring non-EU producers into the scope of carbon costs. Companies exporting certain product groups to the EU must report the greenhouse gas emissions generated during production, and over time, pay for those emissions.",
+    "title": "What Is CBAM? Your Guide to the 2026 Definitive Period",
+    "intro": "The Carbon Border Adjustment Mechanism (CBAM) is a European Union regulation designed to prevent carbon leakage and bring non-EU producers into the scope of carbon costs. Companies exporting certain product groups to the EU must report the greenhouse gas emissions generated during production, and over time, pay for those emissions. The transitional period is coming to a close: from 2026 onward, the definitive period begins, and the reporting obligation starts turning into a financial one.",
     "whyTitle": "Why It Matters",
     "whyDescription": "CBAM creates both operational and financial obligations for companies exporting to the EU. Businesses caught unprepared risk losing competitiveness through delayed reporting, incomplete data, and unpredictable carbon costs.",
     "timelineTitle": "Timeline",
     "timeline": [
       {
-        "period": "Transitional Period",
+        "period": "2023–2025 · Transitional Period",
         "title": "Reporting Obligation",
         "description": "Annual emissions reporting becomes mandatory for covered products; there is not yet a financial payment obligation."
       },
       {
-        "period": "Full Implementation",
+        "period": "2026 · Definitive Period",
         "title": "Certificate Obligation Begins",
-        "description": "Importers become obligated to purchase CBAM certificates corresponding to the embedded emissions of their products."
+        "description": "Importers become obligated to purchase CBAM certificates corresponding to the embedded emissions of their products; Authorised CBAM Declarant (ACD) status becomes central in this period."
       },
       {
-        "period": "Following Years",
-        "title": "Scope Expansion",
-        "description": "The regulation is expected to expand to additional sectors and to indirect emissions."
+        "period": "2027 and beyond",
+        "title": "Certificate Trading and Scope Expansion",
+        "description": "The certificate purchase and surrender process becomes operational; the regulation is expected to expand to additional sectors and to indirect emissions."
       }
     ],
     "sectorsTitle": "Sectors Covered",
     "sectorsDescription": "The current regulation covers imports to the EU from the following sectors:",
+    "valueTypesTitle": "Actual Value or Default Value?",
+    "valueTypesIntro": "CBAM reporting relies on two core emissions methodologies: <strong>actual values</strong> measured at your own facility, and EU-set <strong>default values</strong>, which are usually higher. We break down which one works to your advantage, with a worked example, in our <link>actual value vs. default value comparison guide</link>.",
     "meaningTitle": "What Does This Mean for Your Company?",
     "meaningPoints": [
       "You need clarity on whether your EU exports fall within CBAM scope",
@@ -405,6 +407,24 @@
       "You need a verifiable process aligned with the reporting calendar",
       "You need an investment and supplier strategy to reduce carbon costs over the medium term"
     ],
+    "hubTitle": "What We Cover in Depth Elsewhere in This Guide",
+    "hubDescription": "We've broken down every dimension of CBAM into focused, practical guides:",
+    "hubGroup1Title": "Verification and Sector Guides",
+    "hubGroup2Title": "Operational Readiness",
+    "hubGroup3Title": "Cost, Perspective, and Audit Readiness",
+    "hubParagraphs": {
+      "p1": "Before certificates enter the picture, your data needs to be verified by an independent body; we walk through exactly how that works in our <link>CBAM verification process guide</link>.",
+      "p2": "If you export aluminium, you'll find the technical detail — including how PFC emissions are calculated — in our <link>aluminium sector SEE calculation guide</link>.",
+      "p3": "We cover the iron & steel sector's specific direct and indirect emissions sources in our <link>iron & steel CBAM guide</link>.",
+      "p4": "You can review how emissions are calculated in cement production in our <link>cement CBAM guide</link>.",
+      "p5": "We show you, step by step, how to prepare the monitoring plan that underpins your reporting in our <link>monitoring plan guide</link>.",
+      "p6": "We explain the registry and ACD application process required to keep exporting to the EU in our <link>CBAM registry and ACD guide</link>.",
+      "p7": "We summarize how certificate costs are determined and the 2026–2027 calendar in our <link>certificate prices guide</link>.",
+      "p8": "To see what these costs mean in practice for a business like yours, take a look at our <link>worked cost case study</link>.",
+      "p9": "To understand what your EU buyers will expect from you, read our <link>guide written from the EU importer's perspective</link>.",
+      "p10": "You can use our <link>audit preparation checklist</link> to get ready for a verification audit.",
+      "p11": "We've collected answers to the most common questions on our <link>CBAM FAQ page</link>."
+    },
     "ctaTitle": "Let's Assess Your CBAM Exposure Together",
     "ctaDescription": "Let's clarify your business's position within CBAM scope in a free pre-assessment call.",
     "ctaButton": "Request a Free Assessment"
@@ -438,6 +458,639 @@
     },
     "hoursTitle": "Business Hours",
     "hours": "Monday – Friday, 9:00 AM – 6:00 PM"
+  },
+  "guides": {
+    "verification": {
+      "seoTitle": "CBAM Verification Process: Accredited Verifiers & Site Visits",
+      "seoDescription": "What you need to know about CBAM verification: choosing an accredited verifier, the mandatory first-year site visit, remote-visit conditions in later years, and the 5% materiality threshold.",
+      "eyebrow": "CBAM VERIFICATION",
+      "title": "The CBAM Verification Process: Accredited Verifiers and Site Visit Rules",
+      "intro": "Your CBAM emissions data has to be verified by an independent body before it's submitted to the EU. In this guide we walk through how verification works, who can act as a verifier, and the site visit rules — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "sections": [
+        {
+          "heading": "Why Is Verification Required?",
+          "body": [
+            "CBAM's core purpose is to make sure the emissions figures reported by non-EU producers reflect reality. A company's own emissions calculation isn't accepted on its own — it needs to be verified by an independent, accredited body.",
+            "Verification is especially critical for businesses that want to use actual values instead of default values, because the EU only accepts actual values once they've gone through a proper verification process."
+          ]
+        },
+        {
+          "heading": "What Is an Accredited Verifier?",
+          "body": [
+            "CBAM verification can't be carried out by just any audit firm — it has to be done by a body accredited to the EN ISO/IEC 14065 standard, authorized specifically for greenhouse gas verification. This standard is designed to guarantee the verifier's independence, competence, and methodological consistency.",
+            "You'll need to choose a body in your country of production that holds EN ISO/IEC 14065 accreditation with greenhouse gas verification in scope. Choosing a verifier is a step you should take early — it can take time, and with a limited pool of accredited verifiers, booking capacity gets tight during peak reporting periods."
+          ]
+        },
+        {
+          "heading": "Year One: The Mandatory Physical Site Visit",
+          "body": [
+            "Under CBAM verification rules, when a facility goes through verification for the first time, the verifier is required to visit the site in person. During the visit, the verifier examines production processes, measurement instruments, data collection systems, and documentation on the ground.",
+            "This isn't a formality — it's the stage where the verifier actually assesses whether the reported emissions data is consistent with real production conditions. Being unprepared for the site visit can extend the verification process or lead to a negative opinion."
+          ]
+        },
+        {
+          "heading": "Remote Visits and Exemption Conditions in Later Years",
+          "body": [
+            "In the years following the first verification, the mandatory physical site visit can be relaxed for facilities that meet certain conditions. If no significant non-conformity was found in the prior year's verification and the facility's data collection and monitoring system hasn't changed, the verifier may decide a remote review is sufficient in subsequent years.",
+            "That said, this isn't an automatic entitlement — the decision rests with the verifier's own risk assessment. If something material changes at the facility (a new production line, a different energy source, a change to the data system), a physical visit may be required again."
+          ]
+        },
+        {
+          "heading": "What Does the 5% Materiality Threshold Mean?",
+          "body": [
+            "One of the key concepts in verification is the materiality threshold. Put simply: the error or uncertainty in your total reported emissions data is expected to stay below a level the verifier considers \"material\" — under CBAM verification rules, this is generally understood to be around 5%.",
+            "If a deviation above this threshold is found, the verifier cannot issue a positive opinion, and the company needs to revisit its data collection or calculation methodology. That's why it's worth building your internal controls, well before verification, to keep data quality under this threshold from the start."
+          ]
+        },
+        {
+          "heading": "What to Keep in Mind When Planning Your Verification",
+          "body": [
+            "Verification isn't something to leave for the last week of your reporting calendar. Accredited verifiers have limited capacity, and booking gets harder during busy reporting periods — so it's worth starting your verifier selection and initial contact months ahead of your reporting deadline.",
+            "Pulling together the documentation a verifier will ask for (your monitoring plan, production data, energy invoices, supplier data) ahead of time directly affects how efficient the site visit is. Scattered or incomplete documentation is one of the most common reasons verification drags on."
+          ]
+        }
+      ],
+      "relatedParagraph": "Completing your internal preparation before verification begins makes the process faster and smoother. Our <link>audit preparation checklist</link> covers the steps to take beforehand and the mistakes companies most commonly run into."
+    },
+    "valueComparison": {
+      "seoTitle": "Actual Value or Default Value? CBAM Cost Comparison",
+      "seoDescription": "Why default values create a cost disadvantage under CBAM, the competitive case for using actual values, and when to choose which — with a worked example.",
+      "eyebrow": "COST COMPARISON",
+      "title": "Actual Value or Default Value? A CBAM Cost Comparison",
+      "intro": "Which emissions value method you use in CBAM reporting directly affects how much you'll pay in certificates. In this guide we compare the two methods — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "sections": [
+        {
+          "heading": "The Difference Between Actual and Default Values",
+          "body": [
+            "An actual value is an emissions figure calculated from your facility's own production data and confirmed by an accredited verifier. A default value is a reference figure the EU sets, based on sector averages, for exporters who don't provide — or can't yet provide — verified data.",
+            "Both methods are accepted in CBAM reporting, but which one you use shapes both your reporting workload and your final cost."
+          ]
+        },
+        {
+          "heading": "Why Do Default Values Create a Cost Disadvantage?",
+          "body": [
+            "The EU deliberately adds a mark-up to default values — the intent is to encourage businesses to verify and report their actual data instead. As a result, default values usually come out higher than your facility's real emissions performance.",
+            "In practice, this means that if your production process's actual emissions intensity is below the sector average, using default values forces you to buy more certificates than you actually need."
+          ]
+        },
+        {
+          "heading": "The Competitive Case for Using Actual Values",
+          "body": [
+            "If you run an energy-efficient, lower-carbon production process, documenting that with verified actual data translates directly into a cost advantage: fewer certificates needed, lower CBAM costs, and more competitive pricing in the EU market.",
+            "This isn't a one-off benefit — once your verification infrastructure is in place, it keeps delivering the same advantage every reporting period."
+          ]
+        },
+        {
+          "heading": "Which One Should You Choose, and When?",
+          "body": [
+            "If your data collection and verification infrastructure isn't mature yet, default values can serve as a temporary starting point — but that means accepting a cost disadvantage in the medium term.",
+            "If you have reasonable confidence in your production process's emissions performance, investing early in verification usually pays for itself quickly."
+          ]
+        }
+      ],
+      "exampleTable": {
+        "title": "Illustrative Comparison (Hypothetical Figures)",
+        "note": "The table below is for illustration only; no actual data was used.",
+        "headers": {
+          "method": "Method",
+          "intensity": "Emissions Intensity",
+          "volume": "Annual Volume",
+          "total": "Total Embedded Emissions"
+        },
+        "rows": [
+          {
+            "method": "Default Value",
+            "intensity": "8.5 tCO₂e / tonne (hypothetical)",
+            "volume": "500 tonnes/year",
+            "totalEmissions": "4,250 tCO₂e"
+          },
+          {
+            "method": "Actual Value (Verified)",
+            "intensity": "6.2 tCO₂e / tonne (hypothetical)",
+            "volume": "500 tonnes/year",
+            "totalEmissions": "3,100 tCO₂e"
+          }
+        ],
+        "footnote": "In this example, using the actual value reduces embedded emissions by roughly 27% — which translates into a proportional saving on certificate costs."
+      },
+      "relatedParagraph": "To see what this difference means in monetary terms through a concrete scenario, take a look at our <link>CBAM cost calculation case study</link>."
+    },
+    "aluminiumSee": {
+      "seoTitle": "CBAM in the Aluminium Sector: SEE Calculation & PFC Emissions",
+      "seoDescription": "A technical guide to calculating specific embedded emissions (SEE) in aluminium production and calculating PFC emissions using the overvoltage method.",
+      "eyebrow": "SECTOR GUIDE",
+      "title": "CBAM in the Aluminium Sector: SEE Calculation and PFC Emissions",
+      "intro": "Aluminium is one of the most technically demanding sectors to calculate under CBAM. This guide covers the logic behind specific embedded emissions (SEE) calculation and how PFC emissions are calculated — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "sections": [
+        {
+          "heading": "What Is Specific Embedded Emissions (SEE) in Aluminium Production?",
+          "body": [
+            "SEE (Specific Embedded Emissions) refers to the total greenhouse gas emissions generated in producing one unit of a product. For aluminium, this calculation covers emissions from both the direct production process and the electricity used.",
+            "SEE calculation for aluminium is more complex than in other sectors, because the emissions profile varies significantly depending on the production route (primary/electrolytic vs. secondary/recycled) and the technology used."
+          ]
+        },
+        {
+          "heading": "Direct Emissions: The Electrolysis Process and PFC Emissions",
+          "body": [
+            "At the heart of primary aluminium production is the electrolysis process (the Hall-Héroult process). Alongside carbon dioxide, this process can also release perfluorocarbon (PFC) gases, which have a far higher global warming potential.",
+            "PFC emissions occur during what's known as an \"anode effect\" that occurs periodically in electrolysis cells, and can contribute disproportionately to the total carbon footprint."
+          ]
+        },
+        {
+          "heading": "Calculating PFC Emissions with the Overvoltage Method",
+          "body": [
+            "One of the commonly used methods for calculating PFC emissions is the overvoltage method. Rather than relying on the frequency and duration of anode effects, this approach is based on the deviation in the electrolysis cell's operating voltage.",
+            "The overvoltage method tends to produce more practical and consistent results, particularly for modern facilities with continuous monitoring data — but applying it correctly requires the facility's voltage data to be properly recorded."
+          ]
+        },
+        {
+          "heading": "Indirect Emissions: Why Your Electricity Source Matters",
+          "body": [
+            "Because aluminium production is an extremely electricity-intensive process, indirect emissions can be comparable to — and often exceed — direct emissions.",
+            "Whether the electricity used comes from the grid average or from a direct production source has a direct impact on the indirect emissions calculation, which is why accurate documentation matters so much here."
+          ]
+        },
+        {
+          "heading": "Why This Sector Requires Specialized Technical Expertise",
+          "body": [
+            "SEE calculation in the aluminium sector requires managing multiple variables correctly at once — different production routes, the choice between PFC calculation methods, and electricity source documentation. A single wrong assumption can significantly shift the total emissions figure.",
+            "That complexity is why aluminium exporters are better served running their SEE calculation with a team that has sector-specific technical knowledge, rather than a generic template."
+          ]
+        }
+      ],
+      "toolCta": {
+        "title": "Our SEE Calculation Tool",
+        "description": "We're building an Excel-based calculation tool to speed up your aluminium SEE calculation.",
+        "placeholder": "[EXCEL TOOL CTA GOES HERE]"
+      },
+      "relatedParagraph": "For an overview of general CBAM obligations in the aluminium sector, see our <sectorLink>sector page</sectorLink>; to see how these calculations translate into cost, take a look at our <caseStudyLink>worked case study</caseStudyLink>."
+    },
+    "ironSteel": {
+      "seoTitle": "Iron & Steel Sector CBAM Guide",
+      "seoDescription": "A guide to CBAM emissions sources, the direct/indirect emissions split, and the iron & steel sector's specific position within CBAM scope.",
+      "eyebrow": "SECTOR GUIDE",
+      "title": "CBAM in the Iron & Steel Sector: Direct and Indirect Emissions",
+      "intro": "Iron & steel is one of the sectors with the broadest scope under CBAM. This guide covers sector-specific emissions sources and reporting requirements — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "sections": [
+        {
+          "heading": "Emissions Sources in Iron & Steel Production",
+          "body": [
+            "Iron & steel production has different emissions sources depending on the raw material and production technology used. The emissions gap between integrated facilities producing from ore and electric arc furnace facilities producing from scrap is quite significant.",
+            "Crude steel, semi-finished products, and certain finished products (such as screws, bolts, and fasteners) are all subject to reporting under CBAM — which can mean collecting data at multiple points in your supply chain."
+          ]
+        },
+        {
+          "heading": "Emissions Profile by Production Route: Blast Furnace vs. Electric Arc Furnace",
+          "body": [
+            "Steel produced via the blast furnace–basic oxygen furnace (BF-BOF) route has high direct emissions due to coking coal use. Steel produced from scrap via the electric arc furnace (EAF) route has lower direct emissions, but indirect emissions become significant depending on the electricity source used.",
+            "This difference means the production route you use directly affects your CBAM cost — EAF facilities running on a clean electricity source can gain a meaningful advantage."
+          ]
+        },
+        {
+          "heading": "Separating Direct and Indirect Emissions",
+          "body": [
+            "In iron & steel CBAM reporting, direct emissions (fuel combustion, process emissions) and indirect emissions (purchased electricity) are calculated and reported separately. This split requires careful data management, particularly at facilities spanning multiple production stages.",
+            "If your supply chain involves intermediate products from different facilities, you'll need to track the embedded emissions of each stage separately and combine them correctly in the final product."
+          ]
+        },
+        {
+          "heading": "The Sector's Specific Position Within CBAM Scope",
+          "body": [
+            "Iron & steel is one of the sectors with the broadest CBAM coverage — not just raw and semi-finished products, but certain downstream products fall within scope too. That can mean tracking emissions deeper into your supply chain.",
+            "Clarifying exactly which scope category your exported product falls into is the first step in determining the size of your reporting obligation."
+          ]
+        }
+      ],
+      "relatedParagraph": "We cover how the verification process works in our <verificationLink>verification process guide</verificationLink>; you can also review our services for the iron & steel sector on our <sectorLink>sector page</sectorLink>."
+    },
+    "cement": {
+      "seoTitle": "Cement Sector CBAM Guide",
+      "seoDescription": "A guide to CBAM emissions sources in the cement sector, the role of clinker production, and the calculation approach.",
+      "eyebrow": "SECTOR GUIDE",
+      "title": "CBAM in the Cement Sector",
+      "intro": "Cement is one of the CBAM sectors with the highest direct emissions intensity, due to the calcination reaction in clinker production. This guide covers sector-specific emissions sources — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "sections": [
+        {
+          "heading": "The Main Source of Cement Emissions: Calcination",
+          "body": [
+            "The highest-emitting stage of cement production is the calcination reaction, where limestone (calcium carbonate) is heated at high temperature and converted into clinker. The CO2 released during this reaction comes from the chemical composition of the raw material itself — it's not an emission you can eliminate simply by switching fuels.",
+            "That's why emissions calculation in the cement sector requires handling both fuel-related and process-related emissions separately and accurately."
+          ]
+        },
+        {
+          "heading": "How Kiln Fuel Mix Affects Emissions",
+          "body": [
+            "The fuel mix used in cement kilns (coal, petcoke, alternative/waste fuels) directly affects the amount of emissions. Facilities with a higher share of alternative fuels typically have a lower emissions profile.",
+            "Documenting changes to your fuel mix over time keeps your monitoring plan current and helps avoid consistency issues during verification."
+          ]
+        },
+        {
+          "heading": "The Role of Clinker Ratio in Emissions Calculation",
+          "body": [
+            "The clinker ratio in your final cement product directly affects your overall emissions intensity — cement types with a lower clinker ratio (such as blended cements) generally have a lower emissions profile.",
+            "If your facility produces multiple cement types, you may need to run a separate SEE calculation for each product group."
+          ]
+        },
+        {
+          "heading": "Why Continuous Monitoring Infrastructure Matters",
+          "body": [
+            "Because cement kilns run continuously and at high volume, building facility-level continuous emissions monitoring infrastructure is, in practice, nearly essential. Relying on manual, periodic measurements instead can hurt both your data quality and your verification process."
+          ]
+        }
+      ],
+      "relatedParagraph": "We cover how the verification process works in our <verificationLink>verification process guide</verificationLink>; you can also review our services for the cement sector on our <sectorLink>sector page</sectorLink>."
+    },
+    "monitoringPlan": {
+      "seoTitle": "How to Prepare a CBAM Monitoring Plan",
+      "seoDescription": "A practical, step-by-step guide to what a CBAM monitoring plan needs to include and how to prepare one.",
+      "eyebrow": "OPERATIONAL READINESS",
+      "title": "How to Prepare a CBAM Monitoring Plan, Step by Step",
+      "intro": "Your monitoring plan is the foundation of your reporting and verification processes. This guide covers what it needs to include and how to prepare it — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "sections": [
+        {
+          "heading": "What Is a Monitoring Plan, and Why Is It Needed?",
+          "body": [
+            "A monitoring plan is the core document defining which emissions data your facility collects, using what method, how often, and how it's calculated. Both reporting and verification rest on this plan.",
+            "A well-prepared monitoring plan isn't just a compliance document — it's also a tool that helps you spot gaps and inconsistencies in your data collection early."
+          ]
+        },
+        {
+          "heading": "What a Monitoring Plan Needs to Include",
+          "body": [
+            "A typical CBAM monitoring plan covers your facility and production process description, product scope, data sources (measurement instruments, invoices, lab analyses), calculation methodology, and quality control procedures.",
+            "The plan is also expected to define the responsibilities of the people involved in data collection, and the fallback procedures to follow when data gaps occur."
+          ]
+        },
+        {
+          "heading": "Defining Data Sources and Responsible Parties",
+          "body": [
+            "For every emissions source, you need to clearly define what data is obtained, from which instrument or document, and how often. This clarity strengthens both your internal processes and the documentation you present to your verifier.",
+            "Leaving data collection responsibility with a single person is risky — naming a backup owner protects data continuity through staff changes."
+          ]
+        },
+        {
+          "heading": "A Step-by-Step Approach to Preparing Your Plan",
+          "body": [
+            "The first step is mapping your product scope and the emissions sources tied to it. Next, match your existing data collection infrastructure (measurement instruments, ERP systems, manual records) against that scope and identify the gaps.",
+            "In the final step, you write up the methodology and procedures you've defined into an updatable document your verifier can also access."
+          ]
+        },
+        {
+          "heading": "How Often Should a Monitoring Plan Be Updated?",
+          "body": [
+            "You need to update your monitoring plan whenever there's a significant change in your production process, the fuel or energy source you use, or your data collection system. An outdated monitoring plan can be flagged as a non-conformity during verification."
+          ]
+        }
+      ],
+      "toolCta": {
+        "title": "Our Monitoring Plan Template",
+        "description": "We're preparing a Word template to help you quickly build your own monitoring plan.",
+        "placeholder": "[MONITORING PLAN TEMPLATE CTA GOES HERE]"
+      },
+      "relatedParagraph": "Your monitoring plan also underpins the verification process — we cover that connection in more depth in our <link>verification process guide</link>."
+    },
+    "registryAcd": {
+      "seoTitle": "CBAM Registry and ACD Application Guide",
+      "seoDescription": "A guide to the CBAM registry system and the conditions and timing for an Authorised CBAM Declarant (ACD) application.",
+      "eyebrow": "OPERATIONAL READINESS",
+      "title": "The CBAM Registry System and ACD Application Guide",
+      "intro": "To keep exporting to the EU, your importer partner needs to be registered in the CBAM registry and hold ACD status. This guide covers how that process works — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "sections": [
+        {
+          "heading": "What Is the CBAM Registry?",
+          "body": [
+            "The CBAM registry is the EU's central electronic platform for managing certificate purchases, declaration submissions, and verification processes. During the definitive period, access to this system becomes one of the preconditions for continuing to import into the EU."
+          ]
+        },
+        {
+          "heading": "What Is Authorised CBAM Declarant (ACD) Status?",
+          "body": [
+            "ACD (Authorised CBAM Declarant) status authorizes a party to import CBAM-covered products into the EU. Parties without this status can't import CBAM-covered goods once the definitive period begins.",
+            "ACD status is usually obtained by the EU-based importer — but as the exporter, you're responsible for providing the data and documentation your importer needs to complete that application smoothly."
+          ]
+        },
+        {
+          "heading": "Who Should Apply for ACD Status, and How?",
+          "body": [
+            "The application process begins with the importer applying electronically, through the registry, to the competent authority in their own member state. The application requests information on the importer's corporate details, financial standing, and capacity to meet CBAM obligations.",
+            "Supporting information you may be asked to provide as the exporter during this process includes your product scope, your production process, and any emissions data you already have."
+          ]
+        },
+        {
+          "heading": "Why Application Timing Matters",
+          "body": [
+            "ACD application processing can take longer during busy periods. Having your importer partner's application completed before the definitive period begins is critical to avoiding a disruption in your trade relationship.",
+            "Leaving the application to the last minute can lead to unpredictable delays for both your importer and you."
+          ]
+        },
+        {
+          "heading": "What's Your Role as the Exporter?",
+          "body": [
+            "Even though you don't file the ACD application directly, how smoothly the process goes depends largely on the quality of the data you provide. Exporters who've clarified their product scope and keep emissions data (ideally verified) ready give their importer partners a real advantage."
+          ]
+        }
+      ],
+      "relatedParagraph": "We go into more depth on exactly what your importer partner expects from you during the CBAM process in our <link>guide written from the EU importer's perspective</link>."
+    },
+    "certificatePrices": {
+      "seoTitle": "CBAM Certificate Prices and the 2026–2027 Calendar",
+      "seoDescription": "A guide to CBAM certificate pricing logic, the ETS reference, and the 2026–2027 transition calendar.",
+      "eyebrow": "OPERATIONAL READINESS",
+      "title": "CBAM Certificate Prices and the 2026–2027 Calendar",
+      "intro": "CBAM certificate cost isn't a fixed figure — it's a variable tied to the EU Emissions Trading System that changes periodically. This guide covers the pricing logic and calendar — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "sections": [
+        {
+          "heading": "What Is a CBAM Certificate?",
+          "body": [
+            "A CBAM certificate is a financial instrument, purchased through the EU's registry system, corresponding to the embedded emissions of imported products. Importers are required to surrender a number of certificates matching the emissions volume they report in their annual declaration."
+          ]
+        },
+        {
+          "heading": "The Pricing Logic: The ETS Reference",
+          "body": [
+            "CBAM certificate prices aren't set arbitrarily — they're calculated with reference to carbon prices in the EU Emissions Trading System (ETS). The goal is to balance the carbon cost that EU-based producers pay under the ETS against the cost of imports from outside the EU.",
+            "This link means CBAM certificate prices are directly affected by fluctuations in the ETS market."
+          ]
+        },
+        {
+          "heading": "How Does the Pricing Cycle Work?",
+          "body": [
+            "CBAM certificate prices are updated periodically, based on average closing prices in the ETS. That means the certificate price doesn't stay fixed through the year — it moves in line with the ETS market.",
+            "When planning your import/export activity, keep in mind that certificate cost is a variable that changes periodically, not a fixed number."
+          ]
+        },
+        {
+          "heading": "The 2026–2027 Calendar: What Happens When",
+          "body": [
+            "2026 is the year CBAM's definitive period begins — ACD status and reporting infrastructure come into effect during this period. The certificate purchase and surrender process actually becomes operational in 2027; in other words, the certificate obligation for 2026 emissions arises in 2027.",
+            "This transition calendar gives businesses some time to plan their certificate budgets — but not enough time to leave preparation until the last minute."
+          ]
+        },
+        {
+          "heading": "Where to Track Current Prices",
+          "body": [
+            "Because certificate prices are updated periodically, sharing a current figure on this page would be misleading. For current CBAM certificate prices, we'd recommend following the European Commission's official CBAM registry and publication sources."
+          ]
+        }
+      ],
+      "relatedParagraph": "To see how certificate cost translates into your total CBAM cost, take a look at our <link>worked cost case study</link>."
+    },
+    "costCaseStudy": {
+      "seoTitle": "CBAM Cost Calculation for Turkish Exporters: A Worked Case Study",
+      "seoDescription": "A step-by-step CBAM cost calculation example based on a hypothetical aluminium exporter — a worked case study illustrating the gap between actual and default values.",
+      "eyebrow": "CASE STUDY",
+      "title": "CBAM Cost Calculation for Turkish Exporters: A Worked Case Study",
+      "intro": "Numbers are often easier to reason about than concepts. In this guide we walk through a step-by-step CBAM cost calculation example based on a hypothetical aluminium exporter — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "disclaimer": "This example is entirely hypothetical; it isn't based on a real company or real data. Its purpose is to illustrate the calculation logic through a concrete example.",
+      "sections": [
+        {
+          "heading": "The Scenario",
+          "body": [
+            "Our scenario involves a mid-sized manufacturer exporting 500 tonnes of aluminium profile to the EU annually. The company is just starting its CBAM reporting process and wants to evaluate the cost gap between default and actual values."
+          ]
+        },
+        {
+          "heading": "Step 1: Determining Product Scope and Emissions Sources",
+          "body": [
+            "In the first step, the company confirms that the aluminium profiles it exports fall within CBAM scope, and that both direct (electrolysis) and indirect (electricity) emissions sources need to be included in the calculation."
+          ]
+        },
+        {
+          "heading": "Step 2: Calculating with the Default Value",
+          "body": [
+            "Since it doesn't yet have verified data, the company first runs a calculation using the EU-set default value. In our hypothetical scenario, this figure is taken as 8.5 tCO₂e per tonne. For 500 tonnes, total embedded emissions come to 4,250 tCO₂e."
+          ]
+        },
+        {
+          "heading": "Step 3: Calculating with the Actual Value (After Verification)",
+          "body": [
+            "The company works with an accredited verifier to verify its own production data. The verified actual value, in our hypothetical scenario, comes out to 6.2 tCO₂e per tonne. For the same 500 tonnes, total embedded emissions come to 3,100 tCO₂e."
+          ]
+        },
+        {
+          "heading": "Step 4: Comparing Certificate Cost",
+          "body": [
+            "The 1,150 tCO₂e gap between the two scenarios translates directly into certificate demand. If we calculate at a hypothetical €80 per certificate (this is purely an illustrative figure — see our certificate prices guide for current pricing), the difference corresponds to roughly €92,000.",
+            "That's a concrete illustration of how the investment in verification can pay for itself within a single reporting period."
+          ]
+        },
+        {
+          "heading": "The Takeaway",
+          "body": [
+            "This example is, of course, a simplified scenario — real calculations vary by product complexity, supply chain structure, and verification scope. But the underlying logic holds: verified actual data delivers a cost advantage in most cases."
+          ]
+        }
+      ],
+      "relatedParagraph": "We cover why actual and default values differ in our <valueLink>comparison guide</valueLink>, and the aluminium-specific calculation details in our <aluminiumLink>SEE calculation guide</aluminiumLink>."
+    },
+    "importerRequirements": {
+      "seoTitle": "CBAM from the EU Importer's Perspective: What to Require from Your Supplier",
+      "seoDescription": "For EU importers: the CBAM data and verification documents to request from your supplier, and the cost advantage of requiring actual values.",
+      "eyebrow": "IMPORTER PERSPECTIVE",
+      "title": "CBAM from the EU Importer's Perspective: What to Require from Your Supplier",
+      "intro": "If you're an EU-based importer, most of your CBAM obligations hinge on the data you get from your supplier. This guide covers what you should be asking your supplier for.",
+      "sections": [
+        {
+          "heading": "Why You Need to Request Data from Your Supplier",
+          "body": [
+            "As an EU importer, when you bring in CBAM-covered products, the ultimate responsibility rests largely with you. The data your supplier provides — or fails to provide — directly determines both your reporting burden and the certificate cost you'll pay.",
+            "That's why supplier selection and supplier data-sharing processes are no longer purely commercial matters — they're now compliance matters too."
+          ]
+        },
+        {
+          "heading": "The Core Data You Should Request from Your Supplier",
+          "body": [
+            "At a minimum, you should be requesting: product-level embedded emissions data (ideally actual values), information on the production method and technology used, documentation on the energy source, and whether a monitoring plan is already in place.",
+            "Your supplier's ability to provide this data consistently and reliably is also a meaningful signal of how sustainable your long-term supply relationship will be."
+          ]
+        },
+        {
+          "heading": "Why You Should Request Verification Documentation",
+          "body": [
+            "Having your supplier's emissions data verified by an accredited verifier makes your own reporting process easier and increases the likelihood that data will be accepted by the EU.",
+            "Working with a supplier who provides unverified data can leave you stuck using default values — and the higher cost that comes with them."
+          ]
+        },
+        {
+          "heading": "The Cost Advantage of Requiring Actual Values",
+          "body": [
+            "A supplier that can provide verified actual values translates into a direct cost advantage for you: typically a lower emissions figure than default values, and therefore fewer certificates needed.",
+            "This is also becoming a real differentiator in supplier selection — working with lower-carbon suppliers that have strong verification infrastructure delivers a competitive edge."
+          ]
+        },
+        {
+          "heading": "How to Manage Your Supplier Relationship Under CBAM",
+          "body": [
+            "It's worth clearly stating your CBAM data requirements to your suppliers, and where possible, making them a contractual obligation. Early, transparent communication keeps both you and your supplier from being caught unprepared when the reporting period arrives."
+          ]
+        }
+      ],
+      "relatedParagraph": "We cover how your supplier's data verification process works in our <verificationLink>verification process guide</verificationLink>, and the cost gap between actual and default values in our <valueLink>comparison guide</valueLink>."
+    },
+    "auditChecklist": {
+      "seoTitle": "How to Prepare for a CBAM Verification Audit: Checklist",
+      "seoDescription": "Internal preparation steps, common mistakes, and a documentation checklist for a CBAM verification audit.",
+      "eyebrow": "AUDIT READINESS",
+      "title": "How to Prepare for a CBAM Verification Audit: A Checklist",
+      "intro": "Going into a verification audit prepared directly affects both its speed and its outcome. This guide shares our internal preparation steps and documentation checklist — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "sections": [
+        {
+          "heading": "Why Prepare for the Audit in Advance?",
+          "body": [
+            "Going into a verification audit unprepared can extend the process, add cost, and in the worst case, lead to a negative verification opinion. Internal preparation is the single biggest factor in how smoothly the audit goes."
+          ]
+        },
+        {
+          "heading": "Internal Preparation Steps",
+          "body": [
+            "Before the audit, make sure your monitoring plan is current, that the responsibilities defined in your data collection process are clear, and that any open items from the previous period have been closed out.",
+            "It also helps to run an internal self-assessment, reviewing with your own team the questions your verifier is likely to ask."
+          ]
+        },
+        {
+          "heading": "Common Mistakes",
+          "body": [
+            "The most common mistakes include a mismatch between the monitoring plan and what's actually happening in data collection, missing or inconsistent energy invoices, and data collection responsibilities that were never clearly defined.",
+            "Most of these mistakes can be prevented with a simple internal review conducted months ahead of the audit."
+          ]
+        },
+        {
+          "heading": "Why a Mock Audit Is Worth Running",
+          "body": [
+            "Running a mock audit with your internal team or a consultant, before the actual verification audit, lets you spot gaps in your documentation before the real thing. That both shortens the actual audit and reduces the risk of a negative opinion."
+          ]
+        }
+      ],
+      "checklistTitle": "Documentation Checklist",
+      "checklist": [
+        "Current monitoring plan",
+        "Facility and production process description",
+        "Product-level emissions calculation tables",
+        "Energy invoices and consumption records",
+        "Calibration records for measurement instruments used",
+        "Supplier data (if applicable)",
+        "Prior-period verification report (if applicable)",
+        "Contact details for data collection owners"
+      ],
+      "relatedParagraph": "We cover how the verification process works in more depth in our <link>verification process guide</link>."
+    },
+    "faq": {
+      "seoTitle": "Frequently Asked Questions About CBAM",
+      "seoDescription": "The most common questions and answers about CBAM scope, exemptions, verification, ACD application, certificate costs, and more.",
+      "eyebrow": "FREQUENTLY ASKED QUESTIONS",
+      "title": "Frequently Asked Questions About CBAM",
+      "intro": "We've collected the questions we hear most often about CBAM. If you can't find what you're looking for, <link>get in touch</link>.",
+      "items": [
+        {
+          "question": "Who does CBAM apply to?",
+          "answer": "CBAM applies to non-EU producers exporting iron & steel, aluminium, cement, fertilizer, electricity, or hydrogen products to the EU, and to the companies that import those products into the EU. Clarifying whether your exports fall within scope is the first step.",
+          "relatedLabel": "Our overall CBAM guide",
+          "relatedHref": "/cbam-nedir"
+        },
+        {
+          "question": "What are the 6 sectors CBAM covers?",
+          "answer": "Iron & steel, aluminium, cement, fertilizer, electricity, and hydrogen. Each sector has its own emissions sources and calculation approach.",
+          "relatedLabel": "Our cement sector guide",
+          "relatedHref": "/cimento-sektorunde-cbam"
+        },
+        {
+          "question": "Are small-volume exports exempt from CBAM?",
+          "answer": "CBAM regulation does provide for an exemption for low-value, small-volume consignments. However, the thresholds and their scope can change over time, so we'd recommend confirming the current exemption conditions against the current CBAM regulation.",
+          "relatedLabel": null,
+          "relatedHref": null
+        },
+        {
+          "question": "What are the penalties for CBAM non-compliance?",
+          "answer": "EU CBAM regulation provides for penalties in cases such as incomplete or inaccurate declarations and failure to acquire the required certificates. We'd recommend checking official EU sources for current penalty amounts — giving a specific figure here could be misleading.",
+          "relatedLabel": null,
+          "relatedHref": null
+        },
+        {
+          "question": "Who is an Authorised CBAM Declarant (ACD), and who needs to apply?",
+          "answer": "ACD status authorizes a party to import CBAM-covered goods into the EU; the application is usually filed by the EU-based importer. As the exporter, though, being ready with the right data and documentation makes your importer partner's application considerably easier.",
+          "relatedLabel": "Our registry and ACD guide",
+          "relatedHref": "/cbam-kayit-sistemi-acd-basvuru"
+        },
+        {
+          "question": "Who carries out CBAM verification?",
+          "answer": "Verification is carried out by independent bodies accredited to the EN ISO/IEC 14065 standard with greenhouse gas verification authorization.",
+          "relatedLabel": "Our verification process guide",
+          "relatedHref": "/cbam-dogrulama-sureci"
+        },
+        {
+          "question": "What do I need to use actual values?",
+          "answer": "For actual values to be accepted by the EU, your facility's emissions data needs to be verified by an accredited verifier. Unverified data may have to fall back on default values instead.",
+          "relatedLabel": "Actual value vs. default value comparison",
+          "relatedHref": "/gercek-deger-varsayilan-deger-karsilastirma"
+        },
+        {
+          "question": "Is using default values a disadvantage?",
+          "answer": "Usually, yes — EU-set default values tend to come out higher than your actual production data, which can mean a higher certificate cost.",
+          "relatedLabel": "Our worked cost case study",
+          "relatedHref": "/cbam-maliyet-hesaplama-ornek-vaka"
+        },
+        {
+          "question": "How are CBAM certificates purchased, and how is the price set?",
+          "answer": "Certificates are purchased through a central EU registry system, with pricing updated on a periodic basis. Pricing is set with reference to the EU Emissions Trading System (ETS).",
+          "relatedLabel": "Our certificate prices and calendar guide",
+          "relatedHref": "/cbam-sertifika-fiyatlari-2026-2027"
+        },
+        {
+          "question": "Is a monitoring plan mandatory?",
+          "answer": "Yes — the monitoring plan is the foundation of reporting and verification. Without this document, which defines what data is collected, how, and how often, running a sound reporting process isn't really possible.",
+          "relatedLabel": "Our monitoring plan guide",
+          "relatedHref": "/cbam-izleme-plani-nasil-hazirlanir"
+        },
+        {
+          "question": "Is there a special calculation method for aluminium exporters?",
+          "answer": "Yes — PFC emissions from aluminium production are calculated using the overvoltage method rather than standard approaches. This requires sector-specific technical expertise.",
+          "relatedLabel": "Our aluminium SEE calculation guide",
+          "relatedHref": "/aluminyum-sektorunde-cbam-see-hesaplama"
+        },
+        {
+          "question": "Are indirect emissions also reported for the iron & steel sector?",
+          "answer": "While reporting in the iron & steel sector focuses mainly on direct emissions, correctly separating out indirect emissions matters for energy-intensive routes like electric arc furnaces.",
+          "relatedLabel": "Our iron & steel sector guide",
+          "relatedHref": "/demir-celik-sektorunde-cbam"
+        },
+        {
+          "question": "What does my EU buyer (importer) expect from me?",
+          "answer": "Your EU importer will expect product-level emissions data from you — ideally verified actual values — plus supporting documentation. Not being able to provide this means extra cost for your importer and a competitive disadvantage for you.",
+          "relatedLabel": "Our EU importer's perspective guide",
+          "relatedHref": "/ab-ithalatcisi-tedarikci-beklentileri"
+        },
+        {
+          "question": "How should I prepare for a CBAM audit or verification?",
+          "answer": "Assembling your documentation (monitoring plan, production data, energy invoices) ahead of time, reviewing your internal controls, and reaching out to your verifier early are the most important steps.",
+          "relatedLabel": "Our audit preparation checklist",
+          "relatedHref": "/cbam-denetim-hazirlik-kontrol-listesi"
+        },
+        {
+          "question": "How much could CBAM cost me?",
+          "answer": "This varies significantly by product group, export volume, and whether you use actual or default values. To see the calculation logic through a concrete example, take a look at our worked cost case study.",
+          "relatedLabel": "Our cost calculation case study",
+          "relatedHref": "/cbam-maliyet-hesaplama-ornek-vaka"
+        },
+        {
+          "question": "What exactly changes in 2026?",
+          "answer": "2026 is the year CBAM moves into its definitive period. ACD status becomes central during this period, and the infrastructure for certificate purchasing is put in place; the actual certificate purchase and surrender obligation becomes operational in 2027.",
+          "relatedLabel": "Our pillar guide",
+          "relatedHref": "/cbam-nedir"
+        },
+        {
+          "question": "Is CBAM reporting the same thing as the EU ETS?",
+          "answer": "No, they're different mechanisms. The ETS is a carbon pricing system covering producers within the EU; CBAM aims to subject imports from outside the EU to a comparable cost. CBAM certificate pricing is set with reference to ETS prices.",
+          "relatedLabel": null,
+          "relatedHref": null
+        },
+        {
+          "question": "How does B2Z Advisory support the CBAM process?",
+          "answer": "We provide end-to-end consulting — from impact analysis to emissions calculation, monitoring plan preparation, and the reporting and verification process.",
+          "relatedLabel": "Our services",
+          "relatedHref": "/hizmetler"
+        }
+      ]
+    }
   },
   "notFound": {
     "title": "Page Not Found",
