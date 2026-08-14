@@ -110,10 +110,14 @@ export default async function AluminiumSeeGuidePage({
                 </p>
               </div>
             </div>
-            <Link href="/iletisim" className="btn-primary shrink-0">
+            <a
+              href={t("toolCta.fileHref")}
+              download
+              className="btn-primary shrink-0"
+            >
               {t("toolCta.buttonLabel")}
               <ArrowUpRight className="h-4 w-4" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

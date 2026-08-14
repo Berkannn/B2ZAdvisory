@@ -619,9 +619,10 @@
         }
       ],
       "toolCta": {
-        "title": "SEE Hesaplama Konusunda Destek Alın",
-        "description": "Alüminyum SEE hesaplamanızla ilgili detaylı bilgi almak için bizimle iletişime geçin.",
-        "buttonLabel": "Bize Ulaşın"
+        "title": "SEE Hesaplama Metodolojisi Referans Dokümanımız",
+        "description": "Alüminyum sektörü için CBAM gömülü emisyon (SEE) hesaplama metodolojisini adım adım anlatan teknik referans dokümanımızı indirin.",
+        "buttonLabel": "Dokümanı İndir (.docx)",
+        "fileHref": "/downloads/CBAM-Emission-Calculation-Methodology-Aluminium.docx"
       },
       "relatedParagraph": "Alüminyum sektöründeki genel CBAM yükümlülükleri için <sectorLink>sektör sayfamıza</sectorLink>, bu hesaplamaların maliyete nasıl yansıdığını görmek içinse <caseStudyLink>örnek vaka analizimize</caseStudyLink> göz atabilirsiniz."
     },
@@ -744,8 +745,9 @@
       ],
       "toolCta": {
         "title": "İzleme Planı Şablonumuz",
-        "description": "Kendi izleme planınızı hızlıca oluşturmanızı sağlayacak Word şablonumuzu hazırlıyoruz.",
-        "placeholder": "[BURAYA MONITORING PLAN ŞABLONU CTA'SI GELECEK]"
+        "description": "Alüminyum sektörü için resmi 22 unsur listesine göre hazırlanmış Word izleme planı şablonumuzu indirin.",
+        "buttonLabel": "Şablonu İndir (.docx)",
+        "fileHref": "/downloads/CBAM-Monitoring-Plan-Template-Aluminium.docx"
       },
       "relatedParagraph": "İzleme planınız, doğrulama sürecinin de temelini oluşturuyor — <link>doğrulama süreci rehberimizde</link> bu bağlantıyı daha detaylı ele aldık."
     },

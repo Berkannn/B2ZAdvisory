@@ -619,9 +619,10 @@
         }
       ],
       "toolCta": {
-        "title": "Get Support with SEE Calculation",
-        "description": "Get in touch with us for detailed guidance on your aluminium SEE calculation.",
-        "buttonLabel": "Contact Us"
+        "title": "Our SEE Calculation Methodology Reference",
+        "description": "Download our step-by-step technical reference on the CBAM specific embedded emissions (SEE) calculation methodology for the aluminium sector.",
+        "buttonLabel": "Download the Document (.docx)",
+        "fileHref": "/downloads/CBAM-Emission-Calculation-Methodology-Aluminium.docx"
       },
       "relatedParagraph": "For an overview of general CBAM obligations in the aluminium sector, see our <sectorLink>sector page</sectorLink>; to see how these calculations translate into cost, take a look at our <caseStudyLink>worked case study</caseStudyLink>."
     },
@@ -744,8 +745,9 @@
       ],
       "toolCta": {
         "title": "Our Monitoring Plan Template",
-        "description": "We're preparing a Word template to help you quickly build your own monitoring plan.",
-        "placeholder": "[MONITORING PLAN TEMPLATE CTA GOES HERE]"
+        "description": "Download our Word monitoring plan template for the aluminium sector, built on the official 22-element list.",
+        "buttonLabel": "Download the Template (.docx)",
+        "fileHref": "/downloads/CBAM-Monitoring-Plan-Template-Aluminium.docx"
       },
       "relatedParagraph": "Your monitoring plan also underpins the verification process — we cover that connection in more depth in our <link>verification process guide</link>."
     },
