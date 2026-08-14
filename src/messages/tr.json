@@ -462,10 +462,11 @@
   "guides": {
     "verification": {
       "seoTitle": "CBAM Doğrulama Süreci: Akredite Doğrulayıcı ve Saha Ziyareti",
-      "seoDescription": "CBAM doğrulamasında akredite doğrulayıcı seçimi, ilk yıl zorunlu saha ziyareti, sonraki yıllarda sanal ziyaret koşulları ve %5 materyallik eşiği hakkında bilmeniz gerekenler.",
+      "seoDescription": "Uygulama Tüzüğü (AB) 2025/2546 kapsamında CBAM doğrulaması: akredite doğrulayıcı seçimi, ilk yıl zorunlu saha ziyareti, sonraki yıllarda sanal ziyaret koşulları ve %5 materyallik eşiği.",
       "eyebrow": "CBAM DOĞRULAMA",
       "title": "CBAM Doğrulama Süreci: Akredite Doğrulayıcılar ve Saha Ziyareti Kuralları",
-      "intro": "CBAM kapsamındaki emisyon verileriniz, AB'ye sunulmadan önce bağımsız bir kuruluş tarafından doğrulanmak zorunda. Bu rehberde doğrulama sürecinin nasıl işlediğini, kimin doğrulayıcı olabileceğini ve saha ziyareti kurallarını ele alıyoruz — CBAM'ın genel çerçevesine <link>pillar rehberimizden</link> göz atabilirsiniz.",
+      "legalBasis": "Yasal Dayanak: Uygulama Tüzüğü (AB) 2025/2546",
+      "intro": "CBAM kapsamındaki emisyon verileriniz, AB'ye sunulmadan önce bağımsız bir kuruluş tarafından doğrulanmak zorunda. Bu süreç Uygulama Tüzüğü (AB) 2025/2546 ile düzenleniyor. Bu rehberde doğrulama sürecinin nasıl işlediğini, kimin doğrulayıcı olabileceğini ve saha ziyareti kurallarını ele alıyoruz — CBAM'ın genel çerçevesine <link>pillar rehberimizden</link> göz atabilirsiniz.",
       "sections": [
         {
           "heading": "Doğrulama Neden Gerekli?",
@@ -484,7 +485,7 @@
         {
           "heading": "İlk Yıl: Zorunlu Fiziksel Saha Ziyareti",
           "body": [
-            "CBAM doğrulama kurallarına göre, bir tesis ilk kez doğrulama sürecine girdiğinde doğrulayıcının tesise fiziksel olarak gitmesi zorunlu tutuluyor. Saha ziyareti sırasında doğrulayıcı; üretim süreçlerini, ölçüm cihazlarını, veri toplama sistemlerini ve dokümantasyonu yerinde inceliyor.",
+            "Uygulama Tüzüğü (AB) 2025/2546'ya göre, bir tesis ilk kez doğrulama sürecine girdiğinde doğrulayıcının tesise fiziksel olarak gitmesi zorunlu tutuluyor. Saha ziyareti sırasında doğrulayıcı; üretim süreçlerini, ölçüm cihazlarını, veri toplama sistemlerini ve dokümantasyonu yerinde inceliyor.",
             "Bu ziyaret sadece bir formalite değil — doğrulayıcının, beyan edilen emisyon verisinin gerçek üretim koşullarıyla tutarlı olup olmadığını değerlendirdiği asıl aşama. Saha ziyaretine hazırlıksız yakalanmak, doğrulama sürecinin uzamasına ya da olumsuz görüş verilmesine yol açabiliyor."
           ]
         },
@@ -498,7 +499,7 @@
         {
           "heading": "%5 Materyallik Eşiği Ne Anlama Geliyor?",
           "body": [
-            "Doğrulama sürecinde kullanılan önemli kavramlardan biri materyallik eşiği. Basitçe ifade etmek gerekirse: beyan edilen toplam emisyon verisindeki hata veya belirsizliğin, doğrulayıcının 'önemli' kabul ettiği bir eşiğin (CBAM doğrulama kurallarında genel kabul %5 civarında) altında kalması bekleniyor.",
+            "Doğrulama sürecinde kullanılan önemli kavramlardan biri materyallik eşiği. Basitçe ifade etmek gerekirse: beyan edilen toplam emisyon verisindeki hata veya belirsizliğin, doğrulayıcının 'önemli' kabul ettiği bir eşiğin (Uygulama Tüzüğü (AB) 2025/2546 kapsamında genel kabul %5 civarında) altında kalması bekleniyor.",
             "Bu eşiğin üzerinde bir sapma tespit edilirse doğrulayıcı olumlu görüş veremez ve şirketin veri toplama ya da hesaplama metodolojisini gözden geçirmesi gerekir. Bu yüzden iç kontrol süreçlerinin, doğrulamadan çok önce, veri kalitesini bu eşiğin altında tutacak şekilde kurgulanması öneriliyor."
           ]
         },

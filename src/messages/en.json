@@ -462,10 +462,11 @@
   "guides": {
     "verification": {
       "seoTitle": "CBAM Verification Process: Accredited Verifiers & Site Visits",
-      "seoDescription": "What you need to know about CBAM verification: choosing an accredited verifier, the mandatory first-year site visit, remote-visit conditions in later years, and the 5% materiality threshold.",
+      "seoDescription": "Under Commission Implementing Regulation (EU) 2025/2546: choosing an accredited verifier, the mandatory first-year site visit, remote-visit conditions in later years, and the 5% materiality threshold.",
       "eyebrow": "CBAM VERIFICATION",
       "title": "The CBAM Verification Process: Accredited Verifiers and Site Visit Rules",
-      "intro": "Your CBAM emissions data has to be verified by an independent body before it's submitted to the EU. In this guide we walk through how verification works, who can act as a verifier, and the site visit rules — for CBAM's overall framework, see our <link>pillar guide</link>.",
+      "legalBasis": "Legal Basis: Commission Implementing Regulation (EU) 2025/2546",
+      "intro": "Your CBAM emissions data has to be verified by an independent body before it's submitted to the EU. This process is governed by Commission Implementing Regulation (EU) 2025/2546. In this guide we walk through how verification works, who can act as a verifier, and the site visit rules — for CBAM's overall framework, see our <link>pillar guide</link>.",
       "sections": [
         {
           "heading": "Why Is Verification Required?",
@@ -484,7 +485,7 @@
         {
           "heading": "Year One: The Mandatory Physical Site Visit",
           "body": [
-            "Under CBAM verification rules, when a facility goes through verification for the first time, the verifier is required to visit the site in person. During the visit, the verifier examines production processes, measurement instruments, data collection systems, and documentation on the ground.",
+            "Under Commission Implementing Regulation (EU) 2025/2546, when a facility goes through verification for the first time, the verifier is required to visit the site in person. During the visit, the verifier examines production processes, measurement instruments, data collection systems, and documentation on the ground.",
             "This isn't a formality — it's the stage where the verifier actually assesses whether the reported emissions data is consistent with real production conditions. Being unprepared for the site visit can extend the verification process or lead to a negative opinion."
           ]
         },
@@ -498,7 +499,7 @@
         {
           "heading": "What Does the 5% Materiality Threshold Mean?",
           "body": [
-            "One of the key concepts in verification is the materiality threshold. Put simply: the error or uncertainty in your total reported emissions data is expected to stay below a level the verifier considers \"material\" — under CBAM verification rules, this is generally understood to be around 5%.",
+            "One of the key concepts in verification is the materiality threshold. Put simply: the error or uncertainty in your total reported emissions data is expected to stay below a level the verifier considers \"material\" — under Commission Implementing Regulation (EU) 2025/2546, this is generally understood to be around 5%.",
             "If a deviation above this threshold is found, the verifier cannot issue a positive opinion, and the company needs to revisit its data collection or calculation methodology. That's why it's worth building your internal controls, well before verification, to keep data quality under this threshold from the start."
           ]
         },

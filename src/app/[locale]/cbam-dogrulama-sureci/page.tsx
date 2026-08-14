@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Scale } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import SectionHeading from "@/components/SectionHeading";
 import CtaBanner from "@/components/CtaBanner";
@@ -42,6 +43,10 @@ export default async function VerificationGuidePage({
       <section className="section-padding bg-paper !pb-10">
         <div className="container-page">
           <SectionHeading eyebrow={t("eyebrow")} title={t("title")} />
+          <span className="badge-pill mt-4">
+            <Scale className="h-4 w-4" />
+            {t("legalBasis")}
+          </span>
           <p className="mt-6 max-w-3xl text-base leading-relaxed text-carbon-600 sm:text-lg">
             {t.rich("intro", {
               link: (chunks) => (
