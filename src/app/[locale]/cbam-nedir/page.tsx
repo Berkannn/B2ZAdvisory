@@ -67,6 +67,38 @@ export default async function CbamPage({
   }[];
   const meaningPoints = t.raw("meaningPoints") as string[];
 
+  const hubGroups: {
+    titleKey: "hubGroup1Title" | "hubGroup2Title" | "hubGroup3Title";
+    paragraphs: { key: string; href: AppPathnames }[];
+  }[] = [
+    {
+      titleKey: "hubGroup1Title",
+      paragraphs: [
+        { key: "p1", href: "/cbam-dogrulama-sureci" },
+        { key: "p2", href: "/aluminyum-sektorunde-cbam-see-hesaplama" },
+        { key: "p3", href: "/demir-celik-sektorunde-cbam" },
+        { key: "p4", href: "/cimento-sektorunde-cbam" },
+      ],
+    },
+    {
+      titleKey: "hubGroup2Title",
+      paragraphs: [
+        { key: "p5", href: "/cbam-izleme-plani-nasil-hazirlanir" },
+        { key: "p6", href: "/cbam-kayit-sistemi-acd-basvuru" },
+        { key: "p7", href: "/cbam-sertifika-fiyatlari-2026-2027" },
+      ],
+    },
+    {
+      titleKey: "hubGroup3Title",
+      paragraphs: [
+        { key: "p8", href: "/cbam-maliyet-hesaplama-ornek-vaka" },
+        { key: "p9", href: "/ab-ithalatcisi-tedarikci-beklentileri" },
+        { key: "p10", href: "/cbam-denetim-hazirlik-kontrol-listesi" },
+        { key: "p11", href: "/cbam-sikca-sorulan-sorular" },
+      ],
+    },
+  ];
+
   return (
     <>
       <section className="section-padding bg-paper">
@@ -86,6 +118,27 @@ export default async function CbamPage({
                 {t("whyDescription")}
               </p>
             </div>
+          </div>
+
+          <div className="mt-10 rounded-2xl border border-carbon-100 bg-white p-6 sm:p-8">
+            <h3 className="font-display text-lg font-semibold text-carbon-900">
+              {t("valueTypesTitle")}
+            </h3>
+            <p className="mt-3 text-sm leading-relaxed text-carbon-700 sm:text-base">
+              {t.rich("valueTypesIntro", {
+                strong: (chunks) => (
+                  <strong className="font-semibold text-carbon-900">{chunks}</strong>
+                ),
+                link: (chunks) => (
+                  <Link
+                    href="/gercek-deger-varsayilan-deger-karsilastirma"
+                    className="font-medium text-brand-700 underline underline-offset-2 hover:text-brand-800"
+                  >
+                    {chunks}
+                  </Link>
+                ),
+              })}
+            </p>
           </div>
         </div>
       </section>
@@ -166,6 +219,44 @@ export default async function CbamPage({
       </section>
 
       <section className="section-padding bg-paper">
+        <div className="container-page">
+          <SectionHeading
+            title={t("hubTitle")}
+            description={t("hubDescription")}
+          />
+
+          <div className="mt-10 grid gap-8 lg:grid-cols-3">
+            {hubGroups.map((group) => (
+              <div key={group.titleKey}>
+                <h3 className="font-display text-base font-semibold text-carbon-900">
+                  {t(group.titleKey)}
+                </h3>
+                <ul className="mt-4 space-y-3">
+                  {group.paragraphs.map(({ key, href }) => (
+                    <li
+                      key={key}
+                      className="text-sm leading-relaxed text-carbon-600"
+                    >
+                      {t.rich(`hubParagraphs.${key}`, {
+                        link: (chunks) => (
+                          <NextLink
+                            href={getPathname({ href, locale: localeTyped })}
+                            className="font-medium text-brand-700 underline underline-offset-2 hover:text-brand-800"
+                          >
+                            {chunks}
+                          </NextLink>
+                        ),
+                      })}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-white">
         <div className="container-page">
           <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-700 via-brand-600 to-brand-800 px-6 py-16 text-center sm:px-16">
             <div

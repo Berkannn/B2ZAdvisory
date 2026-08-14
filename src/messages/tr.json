@@ -11,8 +11,8 @@
       "description": "CBAM etki analizi, gömülü emisyon hesaplama, yıllık raporlama ve tedarik zinciri karbon yönetimi. AB'ye ihracat yapan üreticiler için uçtan uca danışmanlık."
     },
     "cbamNedir": {
-      "title": "CBAM Nedir? AB Sınırda Karbon Düzenlemesi Rehberi",
-      "description": "CBAM'ın kapsamı, zaman çizelgesi ve demir-çelik, çimento, alüminyum, gübre, elektrik, hidrojen sektörleri için getirdiği yükümlülükler. Ücretsiz ön değerlendirme alın."
+      "title": "CBAM Nedir? 2026 Kesin Uygulama Dönemi Rehberi",
+      "description": "CBAM'ın kapsamı, 6 sektördeki yükümlülükler, gerçek değer/varsayılan değer ayrımı ve 2026 kesin uygulama dönemine geçiş. Doğrulama, raporlama ve maliyet konularında derinlemesine rehberlerle."
     },
     "hakkimizda": {
       "title": "Hakkımızda: Karbon Danışmanlığı Ekibimiz",
@@ -374,30 +374,32 @@
   },
   "cbamPage": {
     "eyebrow": "CBAM REHBERİ",
-    "title": "CBAM Nedir? Bilmeniz Gereken Her Şey",
-    "intro": "Carbon Border Adjustment Mechanism (CBAM / Sınırda Karbon Düzenleme Mekanizması), Avrupa Birliği'nin karbon sızıntısını önlemek ve AB dışındaki üreticileri de karbon maliyetine dahil etmek amacıyla yürürlüğe koyduğu bir düzenlemedir. AB'ye belirli ürün gruplarını ihraç eden şirketlerin, ürünlerinin üretim sürecinde ortaya çıkan sera gazı emisyonlarını raporlaması ve zamanla bu emisyonlar için ödeme yapması gerekmektedir.",
+    "title": "CBAM Nedir? 2026 Kesin Uygulama Dönemi Rehberi",
+    "intro": "Carbon Border Adjustment Mechanism (CBAM / Sınırda Karbon Düzenleme Mekanizması), Avrupa Birliği'nin karbon sızıntısını önlemek ve AB dışındaki üreticileri de karbon maliyetine dahil etmek amacıyla yürürlüğe koyduğu bir düzenlemedir. AB'ye belirli ürün gruplarını ihraç eden şirketlerin, ürünlerinin üretim sürecinde ortaya çıkan sera gazı emisyonlarını raporlaması ve zamanla bu emisyonlar için ödeme yapması gerekmektedir. Geçiş dönemi geride kalıyor: 2026 itibarıyla kesin uygulama dönemine giriliyor ve raporlama yükümlülüğü, mali bir yükümlülüğe dönüşmeye başlıyor.",
     "whyTitle": "Neden Önemli?",
     "whyDescription": "CBAM, AB'ye ihracat yapan şirketler için hem operasyonel hem de mali bir yükümlülük anlamına geliyor. Hazırlıksız yakalanan işletmeler, gecikmiş raporlama, eksik veri ve öngörülemeyen karbon maliyetleriyle rekabet gücünü kaybetme riskiyle karşı karşıya kalıyor.",
     "timelineTitle": "Zaman Çizelgesi",
     "timeline": [
       {
-        "period": "Geçiş Dönemi",
+        "period": "2023–2025 · Geçiş Dönemi",
         "title": "Raporlama Yükümlülüğü",
         "description": "Kapsamdaki ürünler için yıllık emisyon raporlaması zorunlu hale gelir; henüz mali ödeme yükümlülüğü bulunmaz."
       },
       {
-        "period": "Tam Uygulama Dönemi",
+        "period": "2026 · Kesin Uygulama Dönemi",
         "title": "Sertifika Yükümlülüğü Başlar",
-        "description": "İthalatçılar, ürünlerin gömülü emisyonlarına karşılık gelen CBAM sertifikası satın almakla yükümlü hale gelir."
+        "description": "İthalatçılar, ürünlerin gömülü emisyonlarına karşılık gelen CBAM sertifikası satın almakla yükümlü hale gelir; ACD (Yetkili CBAM Beyan Sahibi) statüsü bu dönemde önem kazanır."
       },
       {
-        "period": "Sonraki Yıllar",
-        "title": "Kapsam Genişlemesi",
-        "description": "Düzenlemenin kapsamının ek sektörlere ve dolaylı emisyonlara genişletilmesi öngörülüyor."
+        "period": "2027 ve sonrası",
+        "title": "Sertifika Alım Süreci ve Kapsam Genişlemesi",
+        "description": "Sertifika alım-satım süreci işlerlik kazanır; düzenlemenin kapsamının ek sektörlere ve dolaylı emisyonlara genişletilmesi öngörülüyor."
       }
     ],
     "sectorsTitle": "Kapsanan Sektörler",
     "sectorsDescription": "Mevcut düzenleme aşağıdaki sektörlerden AB'ye yapılan ithalatı kapsamaktadır:",
+    "valueTypesTitle": "Gerçek Değer mi, Varsayılan Değer mi?",
+    "valueTypesIntro": "CBAM raporlamasında iki temel emisyon değeri yöntemi var: kendi tesisinizden ölçülen <strong>gerçek değerler</strong> ve AB'nin belirlediği, genellikle daha yüksek çıkan <strong>varsayılan değerler</strong>. Hangisinin işletmeniz için daha avantajlı olduğunu, somut bir örnekle birlikte <link>gerçek değer - varsayılan değer karşılaştırma rehberimizde</link> ele aldık.",
     "meaningTitle": "Şirketiniz İçin Ne Anlama Geliyor?",
     "meaningPoints": [
       "AB'ye ihracatınızın CBAM kapsamına girip girmediğinin netleştirilmesi gerekir",
@@ -405,6 +407,24 @@
       "Raporlama takvimine uygun, doğrulanabilir bir süreç tasarlanmalıdır",
       "Orta vadede karbon maliyetini azaltacak yatırım ve tedarikçi stratejisi geliştirilmelidir"
     ],
+    "hubTitle": "Bu Rehberde Derinlemesine Ele Aldığımız Konular",
+    "hubDescription": "CBAM'ın her boyutunu, uygulamaya dönük ayrı rehberlerle ele aldık:",
+    "hubGroup1Title": "Doğrulama ve Sektörel Rehberler",
+    "hubGroup2Title": "Operasyonel Hazırlık",
+    "hubGroup3Title": "Maliyet, Perspektif ve Denetim Hazırlığı",
+    "hubParagraphs": {
+      "p1": "Sertifika alım sürecine geçilmeden önce verileriniz bağımsız bir kuruluş tarafından doğrulanmalı; bu sürecin nasıl işlediğini <link>CBAM doğrulama süreci rehberimizde</link> adım adım anlattık.",
+      "p2": "Alüminyum ihraç ediyorsanız, PFC emisyonlarının nasıl hesaplandığı dahil teknik detayları <link>alüminyum sektörü SEE hesaplama rehberimizde</link> bulabilirsiniz.",
+      "p3": "Demir-çelik sektörünün kendine özgü doğrudan ve dolaylı emisyon kaynaklarını <link>demir-çelik sektörü CBAM rehberimizde</link> ele aldık.",
+      "p4": "Çimento üretiminde emisyonların nasıl hesaplandığını <link>çimento sektörü CBAM rehberimizde</link> inceleyebilirsiniz.",
+      "p5": "Raporlamanın temelini oluşturan izleme planını nasıl hazırlayacağınızı <link>izleme planı rehberimizde</link> adım adım gösterdik.",
+      "p6": "AB'ye ihracata devam edebilmek için gerekli kayıt sistemi ve ACD başvuru sürecini <link>CBAM kayıt sistemi ve ACD rehberimizde</link> anlattık.",
+      "p7": "Sertifika maliyetlerinin nasıl belirlendiğini ve 2026-2027 takvimini <link>sertifika fiyatları rehberimizde</link> özetledik.",
+      "p8": "Bu maliyetlerin işletmeniz için pratikte ne anlama geldiğini görmek isterseniz, <link>örnek vaka analizimize</link> göz atabilirsiniz.",
+      "p9": "AB'li alıcılarınızın sizden hangi veriyi beklediğini anlamak için <link>AB ithalatçısı perspektifinden hazırladığımız rehberi</link> okuyabilirsiniz.",
+      "p10": "Doğrulama denetimine hazırlanırken kullanabileceğiniz <link>denetim hazırlık kontrol listemizi</link> inceleyebilirsiniz.",
+      "p11": "Sık sorulan tüm soruların yanıtlarını <link>CBAM SSS sayfamızda</link> topladık."
+    },
     "ctaTitle": "CBAM Maruziyetinizi Birlikte Değerlendirelim",
     "ctaDescription": "Ücretsiz ön değerlendirme görüşmesiyle işletmenizin CBAM kapsamındaki durumunu netleştirelim.",
     "ctaButton": "Ücretsiz Değerlendirme Talep Edin"
@@ -438,6 +458,642 @@
     },
     "hoursTitle": "Çalışma Saatleri",
     "hours": "Pazartesi – Cuma, 09:00 – 18:00"
+  },
+  "guides": {
+    "verification": {
+      "seoTitle": "CBAM Doğrulama Süreci: Akredite Doğrulayıcı ve Saha Ziyareti",
+      "seoDescription": "Uygulama Tüzüğü (AB) 2025/2546 kapsamında CBAM doğrulaması: akredite doğrulayıcı seçimi, ilk yıl zorunlu saha ziyareti, sonraki yıllarda sanal ziyaret koşulları ve %5 materyallik eşiği.",
+      "eyebrow": "CBAM DOĞRULAMA",
+      "title": "CBAM Doğrulama Süreci: Akredite Doğrulayıcılar ve Saha Ziyareti Kuralları",
+      "legalBasis": "Yasal Dayanak: Uygulama Tüzüğü (AB) 2025/2546",
+      "intro": "CBAM kapsamındaki emisyon verileriniz, AB'ye sunulmadan önce bağımsız bir kuruluş tarafından doğrulanmak zorunda. Bu süreç Uygulama Tüzüğü (AB) 2025/2546 ile düzenleniyor. Bu rehberde doğrulama sürecinin nasıl işlediğini, kimin doğrulayıcı olabileceğini ve saha ziyareti kurallarını ele alıyoruz — CBAM'ın genel çerçevesine <link>pillar rehberimizden</link> göz atabilirsiniz.",
+      "sections": [
+        {
+          "heading": "Doğrulama Neden Gerekli?",
+          "body": [
+            "CBAM'ın temel amacı, AB dışındaki üreticilerin bildirdiği emisyon rakamlarının gerçeği yansıttığından emin olmak. Bir şirketin kendi hesapladığı emisyon verisi tek başına yeterli kabul edilmiyor; bu verinin bağımsız, akredite bir kuruluş tarafından doğrulanması gerekiyor.",
+            "Doğrulama, özellikle gerçek değerleri (varsayılan değerler yerine) kullanmak isteyen işletmeler için kritik bir adım — çünkü gerçek değerlerin AB tarafından kabul edilebilmesi, ancak usulüne uygun bir doğrulama sürecinden geçmesiyle mümkün oluyor."
+          ]
+        },
+        {
+          "heading": "Akredite Doğrulayıcı Nedir?",
+          "body": [
+            "CBAM doğrulaması, herhangi bir denetim firması tarafından değil, EN ISO/IEC 14065 standardına göre akredite edilmiş, sera gazı doğrulama alanında yetkilendirilmiş kuruluşlar tarafından yapılabiliyor. Bu standart, doğrulayıcının bağımsızlığını, yetkinliğini ve metodolojik tutarlılığını garanti altına almayı amaçlıyor.",
+            "Üretim yaptığınız ülkede EN ISO/IEC 14065 akreditasyonuna sahip, sera gazı doğrulama kapsamı olan bir kuruluş tercih etmeniz gerekiyor. Doğrulayıcı seçimi, sürecin en başında yapılması gereken ve zaman alabilen bir adım — kapasitesi kısıtlı doğrulayıcı sayısı nedeniyle özellikle yoğun dönemlerde randevu almak zorlaşabiliyor."
+          ]
+        },
+        {
+          "heading": "İlk Yıl: Zorunlu Fiziksel Saha Ziyareti",
+          "body": [
+            "Uygulama Tüzüğü (AB) 2025/2546'ya göre, bir tesis ilk kez doğrulama sürecine girdiğinde doğrulayıcının tesise fiziksel olarak gitmesi zorunlu tutuluyor. Saha ziyareti sırasında doğrulayıcı; üretim süreçlerini, ölçüm cihazlarını, veri toplama sistemlerini ve dokümantasyonu yerinde inceliyor.",
+            "Bu ziyaret sadece bir formalite değil — doğrulayıcının, beyan edilen emisyon verisinin gerçek üretim koşullarıyla tutarlı olup olmadığını değerlendirdiği asıl aşama. Saha ziyaretine hazırlıksız yakalanmak, doğrulama sürecinin uzamasına ya da olumsuz görüş verilmesine yol açabiliyor."
+          ]
+        },
+        {
+          "heading": "Sonraki Yıllarda Sanal Ziyaret ve Muafiyet Koşulları",
+          "body": [
+            "İlk doğrulamadan sonraki yıllarda, belirli koşulları sağlayan tesisler için fiziksel saha ziyareti zorunluluğu esnetilebiliyor. Önceki yıl doğrulamasında ciddi bir uygunsuzluk tespit edilmemişse ve tesisin veri toplama/izleme sistemi değişmemişse, doğrulayıcı sonraki yıllarda sanal (uzaktan) bir gözden geçirmeyi yeterli görebiliyor.",
+            "Bununla birlikte bu otomatik bir hak değil — kararı doğrulayıcı kendi risk değerlendirmesine göre veriyor. Tesiste önemli bir değişiklik (yeni üretim hattı, farklı bir enerji kaynağı, veri sisteminde değişiklik) olması durumunda fiziksel ziyaret tekrar gerekebiliyor."
+          ]
+        },
+        {
+          "heading": "%5 Materyallik Eşiği Ne Anlama Geliyor?",
+          "body": [
+            "Doğrulama sürecinde kullanılan önemli kavramlardan biri materyallik eşiği. Basitçe ifade etmek gerekirse: beyan edilen toplam emisyon verisindeki hata veya belirsizliğin, doğrulayıcının 'önemli' kabul ettiği bir eşiğin (Uygulama Tüzüğü (AB) 2025/2546 kapsamında genel kabul %5 civarında) altında kalması bekleniyor.",
+            "Bu eşiğin üzerinde bir sapma tespit edilirse doğrulayıcı olumlu görüş veremez ve şirketin veri toplama ya da hesaplama metodolojisini gözden geçirmesi gerekir. Bu yüzden iç kontrol süreçlerinin, doğrulamadan çok önce, veri kalitesini bu eşiğin altında tutacak şekilde kurgulanması öneriliyor."
+          ]
+        },
+        {
+          "heading": "Doğrulama Sürecini Planlarken Nelere Dikkat Etmelisiniz?",
+          "body": [
+            "Doğrulama süreci, raporlama takviminizin son haftasına bırakılacak bir adım değil. Akredite doğrulayıcıların kapasitesi sınırlı, özellikle yoğun raporlama dönemlerinde randevu bulmak zorlaşabiliyor — bu yüzden doğrulayıcı seçimini ve ilk temasları, raporlama teslim tarihinden aylar önce başlatmanız öneriliyor.",
+            "Doğrulayıcının talep edeceği belgeleri (izleme planı, üretim verileri, enerji faturaları, tedarikçi verileri) önceden bir araya getirmek, saha ziyaretinin verimini doğrudan etkiliyor. Dağınık ya da eksik dokümantasyon, doğrulama sürecini uzatan en yaygın nedenlerden biri."
+          ]
+        }
+      ],
+      "relatedParagraph": "Doğrulama sürecine girmeden önce iç hazırlığınızı tamamlamak, sürecin hem daha hızlı hem daha sorunsuz ilerlemesini sağlar. <link>Denetim hazırlık kontrol listemizde</link> doğrulama öncesi atmanız gereken adımları ve sık karşılaşılan hataları bulabilirsiniz."
+    },
+    "valueComparison": {
+      "seoTitle": "Gerçek Değer mi Varsayılan Değer mi? CBAM Maliyet Karşılaştırması",
+      "seoDescription": "CBAM'da varsayılan değerlerin neden maliyet dezavantajı yarattığı, gerçek değer kullanmanın rekabet avantajı ve hangi durumda hangisinin tercih edilmesi gerektiği — örnek hesaplamayla.",
+      "eyebrow": "MALİYET KARŞILAŞTIRMASI",
+      "title": "Gerçek Değer mi Varsayılan Değer mi? CBAM Maliyet Karşılaştırması",
+      "intro": "CBAM raporlamasında hangi emisyon değeri yönteminin kullanıldığı, ödeyeceğiniz sertifika maliyetini doğrudan etkiliyor. Bu rehberde iki yöntemi karşılaştırıyoruz — CBAM'ın genel çerçevesi için <link>pillar rehberimize</link> bakabilirsiniz.",
+      "sections": [
+        {
+          "heading": "Gerçek Değer ve Varsayılan Değer Arasındaki Fark",
+          "body": [
+            "Gerçek değer, tesisinizin kendi üretim verilerinden hesaplanan ve akredite bir doğrulayıcı tarafından onaylanan emisyon rakamıdır. Varsayılan değer ise AB'nin, doğrulanmış veri sunmayan ya da sunamayan ihracatçılar için belirlediği, sektör ortalamalarına dayanan referans rakamdır.",
+            "İki yöntem de CBAM raporlamasında kabul ediliyor, ancak hangisini kullandığınız hem raporlama yükünüzü hem de nihai maliyetinizi belirliyor."
+          ]
+        },
+        {
+          "heading": "Varsayılan Değerler Neden Maliyet Dezavantajı Yaratır?",
+          "body": [
+            "AB, varsayılan değerlere kasıtlı olarak bir güvenlik payı (mark-up) ekliyor — amaç, işletmeleri gerçek verilerini doğrulatıp raporlamaya teşvik etmek. Bu nedenle varsayılan değerler, çoğu durumda tesisinizin gerçek emisyon performansından daha yüksek çıkıyor.",
+            "Pratikte bu şu anlama geliyor: üretim sürecinizin gerçek emisyon yoğunluğu ortalamanın altındaysa, varsayılan değer kullanmak sizi gereğinden fazla sertifika satın almaya zorluyor."
+          ]
+        },
+        {
+          "heading": "Gerçek Değer Kullanmanın Rekabet Avantajı",
+          "body": [
+            "Enerji verimliliği yüksek, düşük karbonlu bir üretim sürecine sahipseniz, bunu doğrulanmış gerçek verilerle belgelemek doğrudan maliyet avantajına dönüşüyor: daha az sertifika ihtiyacı, daha düşük CBAM maliyeti, AB pazarında daha rekabetçi bir fiyatlandırma.",
+            "Bu avantaj tek seferlik değil — doğrulama altyapınız kurulduktan sonra her raporlama döneminde aynı faydayı sağlamaya devam ediyor."
+          ]
+        },
+        {
+          "heading": "Hangi Durumda Hangisi Tercih Edilmeli?",
+          "body": [
+            "Veri toplama ve doğrulama altyapınız henüz olgunlaşmadıysa, varsayılan değer geçici bir başlangıç noktası olabilir — ama bu, orta vadede maliyet dezavantajını kabul etmek anlamına geliyor.",
+            "Üretim sürecinizin emisyon performansı konusunda makul bir güveniniz varsa, doğrulama sürecine erken yatırım yapmak genellikle kendini kısa sürede amorti ediyor."
+          ]
+        }
+      ],
+      "exampleTable": {
+        "title": "Örnek Karşılaştırma (Varsayımsal Rakamlarla)",
+        "note": "Aşağıdaki tablo yalnızca örnek amaçlıdır; gerçek veriler kullanılmamıştır.",
+        "headers": {
+          "method": "Yöntem",
+          "intensity": "Emisyon Yoğunluğu",
+          "volume": "Yıllık Hacim",
+          "total": "Toplam Gömülü Emisyon"
+        },
+        "rows": [
+          {
+            "method": "Varsayılan Değer",
+            "intensity": "8,5 tCO₂e / ton (varsayımsal)",
+            "volume": "500 ton/yıl",
+            "totalEmissions": "4.250 tCO₂e"
+          },
+          {
+            "method": "Gerçek Değer (Doğrulanmış)",
+            "intensity": "6,2 tCO₂e / ton (varsayımsal)",
+            "volume": "500 ton/yıl",
+            "totalEmissions": "3.100 tCO₂e"
+          }
+        ],
+        "footnote": "Bu örnekte gerçek değer kullanımı, gömülü emisyonu yaklaşık %27 azaltıyor — bu da orantılı bir sertifika maliyeti tasarrufu anlamına gelir."
+      },
+      "relatedParagraph": "Bu farkın parasal karşılığını somut bir senaryo üzerinden görmek isterseniz, <link>CBAM maliyet hesaplama örnek vaka analizimize</link> göz atabilirsiniz."
+    },
+    "aluminiumSee": {
+      "seoTitle": "Alüminyum Sektöründe CBAM: SEE Hesaplama ve PFC Emisyonları",
+      "seoDescription": "Alüminyum üretiminde gömülü emisyon (SEE) hesaplama mantığı ve PFC emisyonlarının aşırı voltaj yöntemiyle hesaplanması hakkında teknik rehber.",
+      "eyebrow": "SEKTÖR REHBERİ",
+      "title": "Alüminyum Sektöründe CBAM: SEE Hesaplama ve PFC Emisyonları",
+      "intro": "Alüminyum, CBAM kapsamındaki en teknik hesaplama gerektiren sektörlerden biri. Bu rehberde gömülü emisyon (SEE) hesaplama mantığını ve PFC emisyonlarının nasıl hesaplandığını ele alıyoruz — CBAM'ın genel çerçevesi için <link>pillar rehberimize</link> bakabilirsiniz.",
+      "sections": [
+        {
+          "heading": "Alüminyum Üretiminde Gömülü Emisyon (SEE) Nedir?",
+          "body": [
+            "SEE (Spesifik Gömülü Emisyon), bir ürün biriminin üretimi sırasında ortaya çıkan toplam sera gazı emisyonunu ifade eder. Alüminyum için bu hesaplama, hem doğrudan üretim sürecinden hem de kullanılan elektrik enerjisinden kaynaklanan emisyonları kapsıyor.",
+            "Alüminyumun SEE hesaplaması diğer sektörlere kıyasla daha karmaşık; çünkü üretim yöntemine (birincil/elektrolitik ya da ikincil/geri dönüşüm) ve kullanılan teknolojiye göre emisyon profili büyük ölçüde değişiyor."
+          ]
+        },
+        {
+          "heading": "Doğrudan Emisyonlar: Elektroliz Süreci ve PFC Emisyonları",
+          "body": [
+            "Birincil alüminyum üretiminin kalbinde elektroliz süreci (Hall-Héroult prosesi) yer alıyor. Bu süreçte karbondioksitin yanı sıra, çok daha yüksek küresel ısınma potansiyeline sahip perflorokarbon (PFC) gazları da açığa çıkabiliyor.",
+            "PFC emisyonları, elektroliz hücrelerinde zaman zaman yaşanan 'anot etkisi' sırasında ortaya çıkıyor ve toplam karbon ayak izine orantısız derecede büyük bir katkı yapabiliyor."
+          ]
+        },
+        {
+          "heading": "PFC Emisyonlarının Aşırı Voltaj (Overvoltage) Yöntemiyle Hesaplanması",
+          "body": [
+            "PFC emisyonlarının hesaplanmasında yaygın kullanılan yöntemlerden biri aşırı voltaj (overvoltage) yöntemi. Bu yaklaşım, elektroliz hücresindeki anot etkisi sıklığı ve süresi yerine, hücrenin çalışma voltajındaki sapmayı temel alıyor.",
+            "Aşırı voltaj yöntemi, özellikle sürekli izleme verisi bulunan modern tesisler için daha pratik ve tutarlı sonuçlar veriyor; ancak doğru uygulanabilmesi için tesisin voltaj verilerinin sağlıklı şekilde kayıt altına alınması gerekiyor."
+          ]
+        },
+        {
+          "heading": "Dolaylı Emisyonlar: Elektrik Kaynağının Önemi",
+          "body": [
+            "Alüminyum üretimi son derece elektrik yoğun bir süreç olduğu için dolaylı emisyonlar, doğrudan emisyonlarla kıyaslanabilecek, hatta çoğu zaman onları aşan bir büyüklükte olabiliyor.",
+            "Kullanılan elektriğin şebeke ortalaması mı yoksa doğrudan bir üretim kaynağından mı geldiği, dolaylı emisyon hesaplamasını doğrudan etkiliyor ve bu noktada doğru dokümantasyon kritik önem taşıyor."
+          ]
+        },
+        {
+          "heading": "Neden Bu Sektör Özel Teknik Uzmanlık Gerektiriyor?",
+          "body": [
+            "Alüminyum sektöründe SEE hesaplaması; farklı üretim yolları, PFC hesaplama yöntemleri arasındaki seçim ve elektrik kaynağı dokümantasyonu gibi birden fazla değişkeni aynı anda doğru yönetmeyi gerektiriyor. Tek bir yanlış varsayım, toplam emisyon rakamını önemli ölçüde değiştirebiliyor.",
+            "Bu karmaşıklık, alüminyum ihracatçılarının SEE hesaplamasını genel bir şablonla değil, sektöre özel teknik bilgiye sahip bir ekiple yürütmesini önemli kılıyor."
+          ]
+        }
+      ],
+      "toolCta": {
+        "title": "SEE Hesaplama Metodolojisi Referans Dokümanımız",
+        "description": "Alüminyum sektörü için CBAM gömülü emisyon (SEE) hesaplama metodolojisini adım adım anlatan teknik referans dokümanımızı indirin.",
+        "buttonLabel": "Dokümanı İndir (.docx)",
+        "fileHref": "/downloads/CBAM-Emission-Calculation-Methodology-Aluminium.docx"
+      },
+      "relatedParagraph": "Alüminyum sektöründeki genel CBAM yükümlülükleri için <sectorLink>sektör sayfamıza</sectorLink>, bu hesaplamaların maliyete nasıl yansıdığını görmek içinse <caseStudyLink>örnek vaka analizimize</caseStudyLink> göz atabilirsiniz."
+    },
+    "ironSteel": {
+      "seoTitle": "Demir-Çelik Sektöründe CBAM Rehberi",
+      "seoDescription": "Demir-çelik sektöründe CBAM emisyon kaynakları, doğrudan/dolaylı emisyon ayrımı ve sektörün CBAM kapsamındaki özel durumu hakkında rehber.",
+      "eyebrow": "SEKTÖR REHBERİ",
+      "title": "Demir-Çelik Sektöründe CBAM Rehberi: Doğrudan ve Dolaylı Emisyonlar",
+      "intro": "Demir-çelik, CBAM'ın kapsamı en geniş sektörlerinden biri. Bu rehberde sektöre özel emisyon kaynaklarını ve raporlama gerekliliklerini ele alıyoruz — CBAM'ın genel çerçevesi için <link>pillar rehberimize</link> bakabilirsiniz.",
+      "sections": [
+        {
+          "heading": "Demir-Çelik Üretiminde Emisyon Kaynakları",
+          "body": [
+            "Demir-çelik üretimi, kullanılan hammaddeye ve üretim teknolojisine göre farklı emisyon kaynaklarına sahip. Cevherden üretim yapan entegre tesisler ile hurdadan üretim yapan elektrik ark ocaklı tesisler arasındaki emisyon farkı oldukça belirgin.",
+            "CBAM kapsamında ham çelik, yarı mamul ürünler ve bazı nihai ürünler (vida, cıvata, bağlantı elemanları gibi) raporlamaya tabi — bu da tedarik zincirinizin farklı noktalarında veri toplamanızı gerektirebiliyor."
+          ]
+        },
+        {
+          "heading": "Üretim Yöntemine Göre Emisyon Profili: Yüksek Fırın ve Elektrik Ark Ocağı",
+          "body": [
+            "Yüksek fırın-bazik oksijen fırını (BF-BOF) yöntemiyle üretilen çelik, kok kömürü kullanımı nedeniyle yüksek doğrudan emisyona sahip. Elektrik ark ocağı (EAF) yöntemiyle hurdadan üretilen çelikte ise doğrudan emisyon daha düşük, ancak kullanılan elektriğin kaynağına bağlı olarak dolaylı emisyon önem kazanıyor.",
+            "Bu fark, hangi üretim yöntemini kullandığınızın CBAM maliyetinizi doğrudan etkilediği anlamına geliyor — EAF tesisleri, temiz bir elektrik kaynağıyla çalışıyorsa önemli bir avantaj elde edebiliyor."
+          ]
+        },
+        {
+          "heading": "Doğrudan ve Dolaylı Emisyonların Ayrıştırılması",
+          "body": [
+            "Demir-çelik CBAM raporlamasında doğrudan emisyonlar (yakıt yanması, proses emisyonları) ile dolaylı emisyonlar (satın alınan elektrik) ayrı ayrı hesaplanıp raporlanıyor. Bu ayrım, özellikle birden fazla üretim aşamasından geçen tesislerde dikkatli bir veri yönetimi gerektiriyor.",
+            "Tedarik zincirinizde farklı tesislerden gelen ara ürünler kullanıyorsanız, her aşamanın gömülü emisyonunu ayrı ayrı takip etmeniz ve nihai üründe doğru şekilde birleştirmeniz gerekiyor."
+          ]
+        },
+        {
+          "heading": "Sektörün CBAM Kapsamındaki Özel Durumu",
+          "body": [
+            "Demir-çelik sektörü, CBAM'ın kapsamı en geniş sektörlerinden biri — sadece ham ve yarı mamul ürünler değil, belirli aşağı akış (downstream) ürünler de kapsama dahil. Bu da tedarik zincirinizin daha derinlerine kadar emisyon takibi yapmanızı gerektirebiliyor.",
+            "İhraç ettiğiniz ürünün tam olarak hangi kapsam kategorisine girdiğini netleştirmek, raporlama yükümlülüğünüzün boyutunu belirleyen ilk adım."
+          ]
+        }
+      ],
+      "relatedParagraph": "Doğrulama sürecinin nasıl işlediğini <verificationLink>doğrulama süreci rehberimizde</verificationLink> anlattık; demir-çelik sektöründeki hizmetlerimizi de <sectorLink>sektör sayfamızda</sectorLink> inceleyebilirsiniz."
+    },
+    "cement": {
+      "seoTitle": "Çimento Sektöründe CBAM Rehberi",
+      "seoDescription": "Çimento sektöründe CBAM emisyon kaynakları, klinker üretiminin rolü ve hesaplama yaklaşımı hakkında rehber.",
+      "eyebrow": "SEKTÖR REHBERİ",
+      "title": "Çimento Sektöründe CBAM Rehberi",
+      "intro": "Çimento, klinker üretim sürecindeki kalsinasyon reaksiyonu nedeniyle CBAM'ın en yüksek doğrudan emisyon yoğunluğuna sahip sektörlerinden biri. Bu rehberde sektöre özel emisyon kaynaklarını ele alıyoruz — CBAM'ın genel çerçevesi için <link>pillar rehberimize</link> bakabilirsiniz.",
+      "sections": [
+        {
+          "heading": "Çimento Üretiminde Emisyonun Ana Kaynağı: Kalsinasyon",
+          "body": [
+            "Çimento üretiminin en yüksek emisyona sahip aşaması, kireçtaşının (kalsiyum karbonat) yüksek sıcaklıkta ısıtılarak klinkere dönüştürüldüğü kalsinasyon reaksiyonu. Bu reaksiyon sırasında açığa çıkan karbondioksit, hammaddenin kimyasal yapısından kaynaklanıyor — yani yakıt değiştirerek tek başına ortadan kaldırılabilecek bir emisyon değil.",
+            "Bu nedenle çimento sektöründe emisyon hesaplaması, hem yakıt kaynaklı hem de proses kaynaklı emisyonları ayrı ayrı ve doğru şekilde ele almayı gerektiriyor."
+          ]
+        },
+        {
+          "heading": "Fırın Yakıt Karışımının Emisyona Etkisi",
+          "body": [
+            "Çimento fırınlarında kullanılan yakıt karışımı (kömür, petrokok, alternatif/atık yakıtlar) doğrudan emisyon miktarını etkiliyor. Alternatif yakıt kullanım oranı yüksek tesisler, genellikle daha düşük bir emisyon profiline sahip oluyor.",
+            "Yakıt karışımınızdaki değişiklikleri zaman içinde dokümante etmek, hem izleme planınızın güncel kalmasını sağlıyor hem de doğrulama sürecinde tutarlılık sorunlarının önüne geçiyor."
+          ]
+        },
+        {
+          "heading": "Klinker Oranının Emisyon Hesaplamasındaki Rolü",
+          "body": [
+            "Nihai çimento ürününüzdeki klinker oranı, toplam emisyon yoğunluğunuzu doğrudan etkiliyor — klinker oranı daha düşük çimento türleri (katkılı çimentolar gibi) genellikle daha düşük bir emisyon profiline sahip.",
+            "Farklı çimento türleri ürettiğiniz bir tesisiniz varsa, her ürün grubu için ayrı bir SEE hesaplaması yapmanız gerekebiliyor."
+          ]
+        },
+        {
+          "heading": "Sürekli İzleme Altyapısının Önemi",
+          "body": [
+            "Çimento fırınlarının sürekli çalışması ve yüksek hacimli üretim yapması, tesis bazlı sürekli emisyon izleme altyapısının kurulmasını pratikte neredeyse zorunlu kılıyor. Manuel, dönemsel ölçümlere dayalı bir yaklaşım hem veri kalitesini hem de doğrulama sürecini olumsuz etkileyebiliyor."
+          ]
+        }
+      ],
+      "relatedParagraph": "Doğrulama sürecinin nasıl işlediğini <verificationLink>doğrulama süreci rehberimizde</verificationLink> anlattık; çimento sektöründeki hizmetlerimizi de <sectorLink>sektör sayfamızda</sectorLink> inceleyebilirsiniz."
+    },
+    "monitoringPlan": {
+      "seoTitle": "CBAM İzleme Planı (Monitoring Plan) Nasıl Hazırlanır?",
+      "seoDescription": "CBAM izleme planının içermesi gereken unsurlar ve adım adım hazırlık süreci hakkında pratik rehber.",
+      "eyebrow": "OPERASYONEL HAZIRLIK",
+      "title": "CBAM İzleme Planı (Monitoring Plan) Nasıl Hazırlanır? Adım Adım",
+      "intro": "İzleme planı, raporlama ve doğrulama süreçlerinizin temelini oluşturuyor. Bu rehberde neyi içermesi gerektiğini ve nasıl hazırlanacağını ele alıyoruz — CBAM'ın genel çerçevesi için <link>pillar rehberimize</link> bakabilirsiniz.",
+      "sections": [
+        {
+          "heading": "İzleme Planı Nedir, Neden Gerekli?",
+          "body": [
+            "İzleme planı, tesisinizin hangi emisyon verilerini, hangi yöntemle, hangi sıklıkla topladığını ve nasıl hesapladığını tanımlayan temel dokümandır. Raporlama ve doğrulama süreçlerinin ikisi de bu plana dayanıyor.",
+            "İyi hazırlanmış bir izleme planı sadece bir uyumluluk belgesi değil — aynı zamanda veri toplama sürecinizdeki boşlukları ve tutarsızlıkları erkenden fark etmenizi sağlayan bir araç."
+          ]
+        },
+        {
+          "heading": "İzleme Planının İçermesi Gereken Unsurlar",
+          "body": [
+            "Tipik bir CBAM izleme planı; tesis ve üretim süreci tanımını, ürün kapsamını, veri kaynaklarını (ölçüm cihazları, faturalar, laboratuvar analizleri), hesaplama metodolojisini ve kalite kontrol prosedürlerini içeriyor.",
+            "Ayrıca planın, veri toplama sürecinde görev alan kişilerin sorumluluklarını ve olası veri boşluklarında izlenecek yedek prosedürleri de tanımlaması bekleniyor."
+          ]
+        },
+        {
+          "heading": "Veri Kaynaklarının ve Sorumluların Tanımlanması",
+          "body": [
+            "Her emisyon kaynağı için hangi verinin, hangi cihaz veya belgeden, ne sıklıkla elde edileceğinin net şekilde tanımlanması gerekiyor. Bu netlik hem iç süreçlerinizi hem de doğrulayıcıya sunacağınız dokümantasyonu güçlendiriyor.",
+            "Veri toplama sorumluluğunun tek bir kişiye bağlı kalması risklidir — yedek sorumlu tanımlamak, personel değişikliklerinde veri sürekliliğini koruyor."
+          ]
+        },
+        {
+          "heading": "İzleme Planını Hazırlarken Adım Adım Yaklaşım",
+          "body": [
+            "İlk adım, ürün kapsamınızı ve buna bağlı emisyon kaynaklarını net şekilde haritalamak. Ardından mevcut veri toplama altyapınızı (ölçüm cihazları, ERP sistemleri, manuel kayıtlar) bu kapsamla eşleştirip boşlukları belirlemeniz gerekiyor.",
+            "Son adımda, belirlenen metodolojiyi ve prosedürleri yazılı hale getirip, doğrulayıcınızın da erişebileceği, güncellenebilir bir doküman haline getiriyorsunuz."
+          ]
+        },
+        {
+          "heading": "İzleme Planı Ne Sıklıkla Güncellenmeli?",
+          "body": [
+            "Üretim sürecinizde, kullandığınız yakıt/enerji kaynağında ya da veri toplama sisteminizde önemli bir değişiklik olduğunda izleme planınızı güncellemeniz gerekiyor. Güncel olmayan bir izleme planı, doğrulama sürecinde uyumsuzluk olarak değerlendirilebilir."
+          ]
+        }
+      ],
+      "toolCta": {
+        "title": "İzleme Planı Şablonumuz",
+        "description": "Alüminyum sektörü için resmi 22 unsur listesine göre hazırlanmış Word izleme planı şablonumuzu indirin.",
+        "buttonLabel": "Şablonu İndir (.docx)",
+        "fileHref": "/downloads/CBAM-Monitoring-Plan-Template-Aluminium.docx"
+      },
+      "relatedParagraph": "İzleme planınız, doğrulama sürecinin de temelini oluşturuyor — <link>doğrulama süreci rehberimizde</link> bu bağlantıyı daha detaylı ele aldık."
+    },
+    "registryAcd": {
+      "seoTitle": "CBAM Kayıt Sistemi (Registry) ve ACD Başvurusu Rehberi",
+      "seoDescription": "CBAM kayıt sistemi, ACD (Yetkili CBAM Beyan Sahibi) başvuru koşulları ve zamanlaması hakkında rehber.",
+      "eyebrow": "OPERASYONEL HAZIRLIK",
+      "title": "CBAM Kayıt Sistemi (Registry) ve ACD Başvurusu Rehberi",
+      "intro": "AB'ye ihracata devam edebilmek için ithalatçı partnerinizin CBAM kayıt sistemine kayıtlı ve ACD statüsüne sahip olması gerekiyor. Bu rehberde sürecin nasıl işlediğini ele alıyoruz — CBAM'ın genel çerçevesi için <link>pillar rehberimize</link> bakabilirsiniz.",
+      "sections": [
+        {
+          "heading": "CBAM Kayıt Sistemi (Registry) Nedir?",
+          "body": [
+            "CBAM kayıt sistemi, AB'nin sertifika alım-satımı, beyan sunma ve doğrulama süreçlerini yönettiği merkezi elektronik platform. Kesin uygulama döneminde bu sisteme erişim, AB'ye ithalata devam edebilmenin ön koşullarından biri haline geliyor."
+          ]
+        },
+        {
+          "heading": "ACD (Yetkili CBAM Beyan Sahibi) Statüsü Nedir?",
+          "body": [
+            "ACD (Authorised CBAM Declarant), CBAM kapsamındaki ürünleri AB'ye ithal etmek için yetkilendirilmiş taraf statüsüdür. Bu statüye sahip olmayan taraflar, kesin uygulama döneminde CBAM kapsamındaki ürünleri ithal edemiyor.",
+            "ACD statüsü genellikle AB'de yerleşik ithalatçı tarafından alınıyor — ancak siz ihracatçı olarak, ithalatçınızın bu başvuruyu sorunsuz tamamlayabilmesi için gereken veri ve dokümantasyonu sağlamakla sorumlusunuz."
+          ]
+        },
+        {
+          "heading": "ACD Başvurusunu Kim Yapmalı, Nasıl Yapılır?",
+          "body": [
+            "Başvuru süreci, ithalatçının kendi üye devletindeki yetkili otoriteye, kayıt sistemi üzerinden elektronik olarak başvurmasıyla başlıyor. Başvuruda ithalatçının kurumsal bilgileri, mali durumu ve CBAM yükümlülüklerini yerine getirme kapasitesine dair bilgiler talep ediliyor.",
+            "Bu süreçte ihracatçı olarak sizden istenebilecek destekleyici bilgiler arasında ürün kapsamınız, üretim süreciniz ve varsa mevcut emisyon verileriniz yer alabiliyor."
+          ]
+        },
+        {
+          "heading": "Başvuru Zamanlaması Neden Önemli?",
+          "body": [
+            "ACD başvuru süreçleri, özellikle yoğun dönemlerde uzayabiliyor. İthalatçı partnerinizin başvurusunun kesin uygulama dönemi başlamadan önce tamamlanmış olması, ticari ilişkinizde kesinti yaşanmaması açısından kritik.",
+            "Başvuru sürecini son ana bırakmak, hem ithalatçınız hem de siz için öngörülemeyen gecikmelere yol açabilir."
+          ]
+        },
+        {
+          "heading": "İhracatçı Olarak Sizin Rolünüz Ne?",
+          "body": [
+            "ACD başvurusunu doğrudan siz yapmasanız da, sürecin sorunsuz ilerlemesi büyük ölçüde sizin sağlayacağınız veri kalitesine bağlı. Ürün kapsamını netleştirmiş, emisyon verilerini (mümkünse doğrulanmış) hazır tutan ihracatçılar, ithalatçı partnerleri için önemli bir avantaj sağlıyor."
+          ]
+        }
+      ],
+      "relatedParagraph": "İthalatçı partnerinizin CBAM sürecinde sizden tam olarak ne beklediğini <link>AB ithalatçısı perspektifinden hazırladığımız rehberde</link> daha detaylı ele aldık."
+    },
+    "certificatePrices": {
+      "seoTitle": "CBAM Sertifika Fiyatları ve 2026-2027 Takvimi",
+      "seoDescription": "CBAM sertifika fiyatlandırma mantığı, ETS referansı ve 2026-2027 geçiş takvimi hakkında rehber.",
+      "eyebrow": "OPERASYONEL HAZIRLIK",
+      "title": "CBAM Sertifika Fiyatları ve 2026-2027 Takvimi",
+      "intro": "CBAM sertifika maliyeti, sabit bir rakam değil — AB Emisyon Ticaret Sistemi'ne bağlı, dönemsel olarak değişen bir değişken. Bu rehberde fiyatlandırma mantığını ve takvimi ele alıyoruz — CBAM'ın genel çerçevesi için <link>pillar rehberimize</link> bakabilirsiniz.",
+      "sections": [
+        {
+          "heading": "CBAM Sertifikası Nedir?",
+          "body": [
+            "CBAM sertifikası, ithal edilen ürünlerin gömülü emisyonlarına karşılık gelen, AB'nin kayıt sistemi üzerinden satın alınan bir finansal araçtır. İthalatçılar, yıllık beyanlarında bildirdikleri emisyon miktarına karşılık gelen sayıda sertifikayı devretmekle yükümlü."
+          ]
+        },
+        {
+          "heading": "Sertifika Fiyatlandırma Mantığı: ETS Referansı",
+          "body": [
+            "CBAM sertifikalarının fiyatı keyfi bir şekilde belirlenmiyor — AB Emisyon Ticaret Sistemi'ndeki (ETS) karbon fiyatları referans alınarak hesaplanıyor. Amaç, AB içi üreticilerin ETS kapsamında ödediği karbon maliyetiyle, AB dışından yapılan ithalatın maliyetini dengelemek.",
+            "Bu bağlantı, CBAM sertifika fiyatlarının ETS piyasasındaki dalgalanmalardan doğrudan etkilendiği anlamına geliyor."
+          ]
+        },
+        {
+          "heading": "Fiyatlandırma Döngüsü Nasıl İşliyor?",
+          "body": [
+            "CBAM sertifikalarının fiyatı, ETS'deki ortalama kapanış fiyatları temel alınarak periyodik olarak güncelleniyor. Bu, sertifika fiyatının yıl boyunca sabit kalmadığı, ETS piyasasındaki hareketlere paralel şekilde değiştiği anlamına geliyor.",
+            "İthalat/ihracat planlamanızı yaparken sertifika maliyetinin sabit bir rakam değil, dönemsel olarak değişen bir değişken olduğunu göz önünde bulundurmanız gerekiyor."
+          ]
+        },
+        {
+          "heading": "2026-2027 Takvimi: Ne Zaman Ne Oluyor?",
+          "body": [
+            "2026, CBAM'ın kesin uygulama döneminin başladığı yıl — bu dönemde ACD statüsü ve raporlama altyapısı devreye giriyor. Sertifika alım-satım sürecinin fiilen işlerlik kazanması ise 2027'ye sarkıyor; yani 2026 yılına ait emisyonlar için sertifika yükümlülüğü 2027'de ortaya çıkıyor.",
+            "Bu geçiş takvimi, işletmelerin sertifika bütçelerini planlamak için biraz zaman kazanmasını sağlıyor — ama bu süre hazırlıksız kalınacak kadar uzun değil."
+          ]
+        },
+        {
+          "heading": "Güncel Fiyatları Nereden Takip Etmelisiniz?",
+          "body": [
+            "Sertifika fiyatları dönemsel olarak güncellendiği için bu sayfada güncel bir rakam paylaşmak yanıltıcı olur. Güncel CBAM sertifika fiyatları için AB Komisyonu'nun resmi CBAM kayıt sistemi ve yayın kaynaklarını takip etmenizi öneririz."
+          ]
+        }
+      ],
+      "relatedParagraph": "Sertifika maliyetinin toplam CBAM maliyetinize nasıl yansıdığını görmek için <link>örnek vaka analizimize</link> göz atabilirsiniz."
+    },
+    "costCaseStudy": {
+      "seoTitle": "Türk İhracatçılar için CBAM Maliyet Hesaplama: Örnek Vaka Analizi",
+      "seoDescription": "Varsayımsal bir alüminyum ihracatçısı üzerinden adım adım CBAM maliyet hesaplama örneği — gerçek değer ve varsayılan değer farkını somutlaştıran bir vaka analizi.",
+      "eyebrow": "ÖRNEK VAKA ANALİZİ",
+      "title": "Türk İhracatçılar için CBAM Maliyet Hesaplama: Örnek Vaka Analizi",
+      "intro": "Sayılarla düşünmek, kavramları anlamaktan çoğu zaman daha kolaydır. Bu sayfada varsayımsal bir alüminyum ihracatçısı üzerinden adım adım bir CBAM maliyet hesaplama örneği sunuyoruz — CBAM'ın genel çerçevesi için <link>pillar rehberimize</link> bakabilirsiniz.",
+      "disclaimer": "Bu örnek tamamen varsayımsaldır; gerçek bir şirkete veya gerçek verilere dayanmamaktadır. Amaç, hesaplama mantığını somut bir örnek üzerinden göstermektir.",
+      "sections": [
+        {
+          "heading": "Vaka Senaryosu",
+          "body": [
+            "Senaryomuzdaki işletme, AB'ye yıllık 500 ton alüminyum profil ihraç eden orta ölçekli bir üretici. Şirket, CBAM raporlama sürecine yeni başlıyor ve varsayılan değer ile gerçek değer arasındaki maliyet farkını değerlendirmek istiyor."
+          ]
+        },
+        {
+          "heading": "Adım 1: Ürün Kapsamının ve Emisyon Kaynaklarının Belirlenmesi",
+          "body": [
+            "İlk adımda şirket, ihraç ettiği alüminyum profillerin CBAM kapsamına girdiğini ve hem doğrudan (elektroliz) hem dolaylı (elektrik) emisyon kaynaklarının hesaplamaya dahil edilmesi gerektiğini tespit ediyor."
+          ]
+        },
+        {
+          "heading": "Adım 2: Varsayılan Değerle Hesaplama",
+          "body": [
+            "Doğrulanmış verisi henüz olmadığı için şirket önce AB'nin belirlediği varsayılan değeri kullanarak bir hesaplama yapıyor. Varsayımsal senaryomuzda bu değer ton başına 8,5 tCO₂e olarak alınmış. 500 ton için toplam gömülü emisyon: 4.250 tCO₂e."
+          ]
+        },
+        {
+          "heading": "Adım 3: Gerçek Değerle Hesaplama (Doğrulama Sonrası)",
+          "body": [
+            "Şirket, akredite bir doğrulayıcıyla çalışarak kendi üretim verilerini doğrulatıyor. Doğrulanmış gerçek değer, varsayımsal senaryomuzda ton başına 6,2 tCO₂e çıkıyor. Aynı 500 ton için toplam gömülü emisyon: 3.100 tCO₂e."
+          ]
+        },
+        {
+          "heading": "Adım 4: Sertifika Maliyeti Karşılaştırması",
+          "body": [
+            "İki senaryo arasındaki 1.150 tCO₂e'lik fark, doğrudan sertifika ihtiyacına yansıyor. Örneğin sertifika başına varsayımsal 80€ üzerinden hesaplarsak (bu tamamen örnek amaçlı bir rakamdır, güncel fiyat için sertifika fiyatları rehberimize bakınız), fark yaklaşık 92.000€'ya karşılık geliyor.",
+            "Bu, doğrulama sürecine yapılan yatırımın tek bir raporlama döneminde bile kendini amorti edebileceğini gösteren somut bir örnek."
+          ]
+        },
+        {
+          "heading": "Bu Vakadan Çıkarılacak Ders",
+          "body": [
+            "Bu örnek elbette basitleştirilmiş bir senaryodur — gerçek hesaplamalar ürün karmaşıklığına, tedarik zinciri yapısına ve doğrulama kapsamına göre değişir. Ancak temel mantık net: doğrulanmış gerçek veri, çoğu durumda maliyet avantajı sağlar."
+          ]
+        }
+      ],
+      "relatedParagraph": "Gerçek değer ile varsayılan değer arasındaki farkın nedenini <valueLink>karşılaştırma rehberimizde</valueLink>, alüminyum sektörüne özgü hesaplama detaylarını ise <aluminiumLink>SEE hesaplama rehberimizde</aluminiumLink> bulabilirsiniz."
+    },
+    "importerRequirements": {
+      "seoTitle": "AB İthalatçısı Gözünden CBAM: Tedarikçinizden Ne İstemelisiniz?",
+      "seoDescription": "AB'li ithalatçılar için: tedarikçiden istenmesi gereken CBAM verisi, doğrulama belgeleri ve gerçek değer talep etmenin maliyet avantajı.",
+      "eyebrow": "İTHALATÇI PERSPEKTİFİ",
+      "title": "AB İthalatçısı Gözünden CBAM: Tedarikçinizden Ne İstemelisiniz?",
+      "intro": "AB'li bir ithalatçıysanız, CBAM yükümlülüklerinizin büyük kısmı tedarikçinizden alacağınız veriye bağlı. Bu rehberde tedarikçinizden ne talep etmeniz gerektiğini ele alıyoruz.",
+      "sections": [
+        {
+          "heading": "Neden Tedarikçinizden Veri Talep Etmelisiniz?",
+          "body": [
+            "AB'li bir ithalatçı olarak, CBAM kapsamındaki ürünleri ithal ederken nihai sorumluluk büyük ölçüde sizde. Tedarikçinizin size sağladığı (ya da sağlayamadığı) veri, hem raporlama yükünüzü hem de ödeyeceğiniz sertifika maliyetini doğrudan belirliyor.",
+            "Bu nedenle tedarikçi seçimi ve tedarikçiyle veri paylaşımı süreçleri, artık sadece ticari değil, aynı zamanda uyumluluk odaklı bir konu haline geldi."
+          ]
+        },
+        {
+          "heading": "Tedarikçinizden İstemeniz Gereken Temel Veriler",
+          "body": [
+            "Tedarikçinizden en azından şunları talep etmeniz öneriliyor: ürün bazında gömülü emisyon verisi (mümkünse gerçek değer), kullanılan üretim yöntemi ve teknolojisine dair bilgi, enerji kaynağına dair dokümantasyon ve mevcut bir izleme planının olup olmadığı.",
+            "Tedarikçinizin bu verileri düzenli ve tutarlı şekilde sağlayabilmesi, uzun vadeli bir tedarik ilişkisinin sürdürülebilirliği açısından da önemli bir gösterge."
+          ]
+        },
+        {
+          "heading": "Doğrulama Belgesi Talep Etmenin Önemi",
+          "body": [
+            "Tedarikçinizin sunduğu emisyon verisinin akredite bir doğrulayıcı tarafından doğrulanmış olması, hem sizin raporlama sürecinizi kolaylaştırıyor hem de verinin AB tarafından kabul edilme olasılığını artırıyor.",
+            "Doğrulanmamış veri sunan bir tedarikçiyle çalışmak, sizi varsayılan değer kullanmaya — ve dolayısıyla daha yüksek bir maliyete — mahkum edebilir."
+          ]
+        },
+        {
+          "heading": "Gerçek Değer Talep Etmenin Sizin İçin Maliyet Avantajı",
+          "body": [
+            "Tedarikçinizin doğrulanmış gerçek değerler sunabilmesi, sizin için doğrudan bir maliyet avantajı anlamına geliyor: varsayılan değerlere kıyasla genellikle daha düşük bir emisyon rakamı, dolayısıyla daha az sertifika ihtiyacı.",
+            "Bu aynı zamanda tedarikçi seçiminde bir farklılaştırma kriteri haline geliyor — düşük karbonlu, doğrulama altyapısı güçlü tedarikçilerle çalışmak rekabet avantajı sağlıyor."
+          ]
+        },
+        {
+          "heading": "Tedarikçi İlişkinizi CBAM'a Göre Nasıl Yönetmelisiniz?",
+          "body": [
+            "Tedarikçilerinizden CBAM veri gereksinimlerini net bir şekilde talep etmeniz, mümkünse bunu sözleşmesel bir yükümlülük haline getirmeniz öneriliyor. Erken ve şeffaf iletişim, hem sizin hem de tedarikçinizin raporlama dönemine hazırlıksız yakalanmasını önlüyor."
+          ]
+        }
+      ],
+      "relatedParagraph": "Tedarikçinizin veri doğrulama sürecinin nasıl işlediğini <verificationLink>doğrulama süreci rehberimizde</verificationLink>, gerçek değer ile varsayılan değer arasındaki maliyet farkını ise <valueLink>karşılaştırma rehberimizde</valueLink> daha detaylı ele aldık."
+    },
+    "auditChecklist": {
+      "seoTitle": "CBAM Doğrulama Denetimine Nasıl Hazırlanılır? Kontrol Listesi",
+      "seoDescription": "CBAM doğrulama denetimi öncesi iç hazırlık adımları, sık karşılaşılan hatalar ve dokümantasyon kontrol listesi.",
+      "eyebrow": "DENETİM HAZIRLIĞI",
+      "title": "CBAM Doğrulama Denetimine Nasıl Hazırlanılır? Kontrol Listesi",
+      "intro": "Doğrulama denetimine hazırlıklı girmek, sürecin hızını ve sonucunu doğrudan etkiliyor. Bu rehberde iç hazırlık adımlarını ve dokümantasyon kontrol listesini paylaşıyoruz — CBAM'ın genel çerçevesi için <link>pillar rehberimize</link> bakabilirsiniz.",
+      "sections": [
+        {
+          "heading": "Denetime Neden Önceden Hazırlanmalısınız?",
+          "body": [
+            "Doğrulama denetimine hazırlıksız girmek, sürecin uzamasına, ek maliyetlere ve en kötü ihtimalle olumsuz bir doğrulama görüşüne yol açabilir. İç hazırlık, denetimin sorunsuz ilerlemesinin en büyük belirleyicisi."
+          ]
+        },
+        {
+          "heading": "İç Hazırlık Adımları",
+          "body": [
+            "Denetimden önce izleme planınızın güncel olduğundan, veri toplama sürecinizde tanımlanan sorumluların net olduğundan ve önceki dönemden kalan açık noktaların kapatıldığından emin olmanız gerekiyor.",
+            "Ayrıca iç bir ön inceleme yaparak, doğrulayıcının muhtemelen soracağı soruları kendi ekibinizle önceden gözden geçirmeniz faydalı oluyor."
+          ]
+        },
+        {
+          "heading": "Sık Karşılaşılan Hatalar",
+          "body": [
+            "En sık karşılaşılan hatalar arasında izleme planı ile fiili veri toplama sürecinin birbirini tutmaması, eksik ya da tutarsız enerji faturaları ve veri toplama sorumluluğunun net şekilde tanımlanmamış olması yer alıyor.",
+            "Bu hataların çoğu, denetimden aylar önce yapılacak basit bir iç gözden geçirmeyle önlenebilir nitelikte."
+          ]
+        },
+        {
+          "heading": "Bir Prova Denetim (Mock Audit) Neden Faydalı?",
+          "body": [
+            "Gerçek doğrulama denetiminden önce iç ekibinizle ya da bir danışmanla yapacağınız bir prova denetim, dokümantasyonunuzdaki boşlukları gerçek denetimden önce görmenizi sağlıyor. Bu hem denetim sürecinin süresini kısaltıyor hem de olumsuz görüş riskini azaltıyor."
+          ]
+        }
+      ],
+      "checklistTitle": "Dokümantasyon Kontrol Listesi",
+      "checklist": [
+        "Güncel izleme planı",
+        "Tesis ve üretim süreci açıklaması",
+        "Ürün bazında emisyon hesaplama tabloları",
+        "Enerji faturaları ve tüketim kayıtları",
+        "Kullanılan ölçüm cihazlarının kalibrasyon kayıtları",
+        "Tedarikçi verileri (varsa)",
+        "Önceki dönem doğrulama raporu (varsa)",
+        "Veri toplama sorumlularının iletişim bilgileri"
+      ],
+      "relatedParagraph": "Doğrulama sürecinin genel işleyişini <link>doğrulama süreci rehberimizde</link> daha detaylı ele aldık."
+    },
+    "faq": {
+      "seoTitle": "CBAM Hakkında Sıkça Sorulan Sorular",
+      "seoDescription": "CBAM kapsamı, muafiyetler, doğrulama, ACD başvurusu, sertifika maliyeti ve daha fazlası hakkında en çok sorulan sorular ve yanıtları.",
+      "eyebrow": "SIKÇA SORULAN SORULAR",
+      "title": "CBAM Hakkında Sıkça Sorulan Sorular",
+      "intro": "CBAM ile ilgili en sık gelen soruları bir araya getirdik. Aradığınız konuyu bulamazsanız <link>bize ulaşabilirsiniz</link>.",
+      "items": [
+        {
+          "question": "CBAM kimi kapsıyor?",
+          "answer": "CBAM, Avrupa Birliği'ne demir-çelik, alüminyum, çimento, gübre, elektrik ve hidrojen sektörlerinde ürün ihraç eden AB dışındaki üreticileri ve bu ürünleri AB'ye ithal eden şirketleri kapsıyor. İhracatınızın kapsama girip girmediğini netleştirmek sürecin ilk adımı.",
+          "relatedLabel": "CBAM'ın genel çerçevesi",
+          "relatedHref": "/cbam-nedir"
+        },
+        {
+          "question": "CBAM'ın kapsadığı 6 sektör hangileri?",
+          "answer": "Demir-çelik, alüminyum, çimento, gübre, elektrik ve hidrojen. Her sektörün kendine özgü emisyon kaynakları ve hesaplama yaklaşımı var.",
+          "relatedLabel": "Çimento sektörü rehberimiz",
+          "relatedHref": "/cimento-sektorunde-cbam"
+        },
+        {
+          "question": "Küçük hacimli ihracat CBAM'dan muaf mı?",
+          "answer": "Düşük değerli, küçük miktarlı sevkiyatlar için CBAM mevzuatında bir muafiyet öngörülüyor. Ancak eşik değerler ve kapsamı zamanla değişebiliyor; güncel muafiyet koşullarını CBAM mevzuatının güncel halinden teyit etmenizi öneririz.",
+          "relatedLabel": null,
+          "relatedHref": null
+        },
+        {
+          "question": "CBAM'a uymamanın yaptırımı nedir?",
+          "answer": "AB CBAM mevzuatına göre, eksik veya hatalı beyan ile gerekli sertifikaların alınmaması gibi durumlar için yaptırımlar öngörülüyor. Güncel yaptırım tutarları için resmi AB kaynaklarını kontrol etmenizi öneririz — burada spesifik bir rakam vermek yanıltıcı olabilir.",
+          "relatedLabel": null,
+          "relatedHref": null
+        },
+        {
+          "question": "ACD (Yetkili CBAM Beyan Sahibi) kimdir, kim başvurmalı?",
+          "answer": "ACD, AB'ye CBAM kapsamındaki ürünleri ithal etmek için yetkilendirilmiş taraf statüsü; başvuruyu genellikle AB'li ithalatçı yapıyor. Ancak ihracatçı olarak sizin de sürece hazır olmanız, ithalatçı partnerinizin başvurusunu kolaylaştırıyor.",
+          "relatedLabel": "Kayıt sistemi ve ACD rehberimiz",
+          "relatedHref": "/cbam-kayit-sistemi-acd-basvuru"
+        },
+        {
+          "question": "CBAM doğrulamasını kim yapıyor?",
+          "answer": "Doğrulama, EN ISO/IEC 14065 standardına göre akredite edilmiş, sera gazı doğrulama yetkisi olan bağımsız kuruluşlar tarafından yapılıyor.",
+          "relatedLabel": "Doğrulama süreci rehberimiz",
+          "relatedHref": "/cbam-dogrulama-sureci"
+        },
+        {
+          "question": "Gerçek değer kullanmak için ne gerekiyor?",
+          "answer": "Gerçek değerlerin AB tarafından kabul edilebilmesi için tesisinizin emisyon verilerinin akredite bir doğrulayıcı tarafından doğrulanmış olması gerekiyor. Doğrulanmamış veriler için varsayılan değerler kullanılmak zorunda kalınabiliyor.",
+          "relatedLabel": "Gerçek değer - varsayılan değer karşılaştırması",
+          "relatedHref": "/gercek-deger-varsayilan-deger-karsilastirma"
+        },
+        {
+          "question": "Varsayılan değer kullanmak dezavantajlı mı?",
+          "answer": "Genellikle evet — AB'nin belirlediği varsayılan değerler, gerçek üretim verilerinize göre daha yüksek çıkma eğiliminde, bu da daha fazla sertifika maliyeti anlamına gelebiliyor.",
+          "relatedLabel": "Maliyet farkını gösteren örnek vaka",
+          "relatedHref": "/cbam-maliyet-hesaplama-ornek-vaka"
+        },
+        {
+          "question": "CBAM sertifikası nasıl satın alınıyor, fiyatı nasıl belirleniyor?",
+          "answer": "Sertifikalar, AB'nin kurduğu merkezi bir kayıt sistemi üzerinden, dönemsel olarak güncellenen bir fiyatlandırmayla satın alınıyor. Fiyatlandırma, AB Emisyon Ticaret Sistemi (ETS) referans alınarak belirleniyor.",
+          "relatedLabel": "Sertifika fiyatları ve takvim rehberimiz",
+          "relatedHref": "/cbam-sertifika-fiyatlari-2026-2027"
+        },
+        {
+          "question": "İzleme planı (monitoring plan) zorunlu mu?",
+          "answer": "Evet — raporlama ve doğrulamanın temelini izleme planı oluşturuyor. Hangi verilerin, nasıl ve hangi sıklıkla toplanacağını tanımlayan bu doküman olmadan sağlıklı bir raporlama süreci yürütmek mümkün değil.",
+          "relatedLabel": "İzleme planı hazırlama rehberimiz",
+          "relatedHref": "/cbam-izleme-plani-nasil-hazirlanir"
+        },
+        {
+          "question": "Alüminyum ihracatçıları için özel bir hesaplama yöntemi var mı?",
+          "answer": "Evet — alüminyum üretiminde ortaya çıkan PFC emisyonları, standart yöntemlerden farklı olarak aşırı voltaj (overvoltage) yöntemiyle hesaplanıyor. Bu, sektöre özgü teknik bir uzmanlık gerektiriyor.",
+          "relatedLabel": "Alüminyum SEE hesaplama rehberimiz",
+          "relatedHref": "/aluminyum-sektorunde-cbam-see-hesaplama"
+        },
+        {
+          "question": "Demir-çelik sektöründe dolaylı emisyonlar da mı raporlanıyor?",
+          "answer": "Demir-çelik sektöründe raporlama esas olarak doğrudan emisyonlara odaklansa da, elektrik ark ocağı gibi enerji yoğun üretim yollarında dolaylı emisyonların da doğru şekilde ayrıştırılması önem taşıyor.",
+          "relatedLabel": "Demir-çelik sektörü rehberimiz",
+          "relatedHref": "/demir-celik-sektorunde-cbam"
+        },
+        {
+          "question": "AB'li alıcım (ithalatçı) benden ne bekliyor?",
+          "answer": "AB'li ithalatçınız sizden ürün bazlı emisyon verisi, mümkünse doğrulanmış gerçek değerler ve destekleyici dokümantasyon talep edecek. Bu talebi karşılayamamak, ithalatçınız için ek maliyet ve sizin için rekabet dezavantajı demek.",
+          "relatedLabel": "AB ithalatçısı perspektifi rehberimiz",
+          "relatedHref": "/ab-ithalatcisi-tedarikci-beklentileri"
+        },
+        {
+          "question": "CBAM denetimine/doğrulamasına nasıl hazırlanmalıyım?",
+          "answer": "Dokümantasyonunuzu (izleme planı, üretim verileri, enerji faturaları) önceden derlemeniz, iç kontrol sürecinizi gözden geçirmeniz ve doğrulayıcınızla erken temasa geçmeniz en önemli adımlar.",
+          "relatedLabel": "Denetim hazırlık kontrol listemiz",
+          "relatedHref": "/cbam-denetim-hazirlik-kontrol-listesi"
+        },
+        {
+          "question": "CBAM maliyetim ne kadar olabilir?",
+          "answer": "Bu, ürün grubunuza, ihracat hacminize ve gerçek/varsayılan değer tercihinize göre büyük ölçüde değişiyor. Somut bir örnek üzerinden hesaplama mantığını görmek için örnek vaka analizimize göz atabilirsiniz.",
+          "relatedLabel": "Maliyet hesaplama örnek vakamız",
+          "relatedHref": "/cbam-maliyet-hesaplama-ornek-vaka"
+        },
+        {
+          "question": "2026'da tam olarak ne değişiyor?",
+          "answer": "2026, CBAM'ın kesin uygulama dönemine geçtiği yıl. Bu dönemde ACD statüsü önem kazanıyor ve sertifika alım süreci için altyapı hazırlanıyor; asıl sertifika alım-satım yükümlülüğü 2027'de işlerlik kazanıyor.",
+          "relatedLabel": "Pillar rehberimiz",
+          "relatedHref": "/cbam-nedir"
+        },
+        {
+          "question": "CBAM raporlaması ile ETS (Emisyon Ticaret Sistemi) aynı şey mi?",
+          "answer": "Hayır, farklı mekanizmalar. ETS, AB içindeki üreticileri kapsayan bir karbon fiyatlandırma sistemi; CBAM ise AB dışından yapılan ithalatı, ETS ile karşılaştırılabilir bir maliyete tabi tutmayı amaçlıyor. CBAM sertifika fiyatlandırması, ETS fiyatları referans alınarak belirleniyor.",
+          "relatedLabel": null,
+          "relatedHref": null
+        },
+        {
+          "question": "B2Z Advisory CBAM sürecinde nasıl destek oluyor?",
+          "answer": "Etki analizinden emisyon hesaplamaya, izleme planı hazırlığından raporlama ve doğrulama sürecine kadar uçtan uca danışmanlık sağlıyoruz.",
+          "relatedLabel": "Hizmetlerimiz",
+          "relatedHref": "/hizmetler"
+        }
+      ]
+    }
   },
   "notFound": {
     "title": "Sayfa Bulunamadı",

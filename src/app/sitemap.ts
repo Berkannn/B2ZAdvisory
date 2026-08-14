@@ -12,6 +12,19 @@ const internalPaths: AppPathnames[] = [
   "/hakkimizda",
   "/iletisim",
   ...sectorIds.map((id) => getSectorPathnameKey(id) as AppPathnames),
+  // CBAM guide content cluster
+  "/cbam-dogrulama-sureci",
+  "/gercek-deger-varsayilan-deger-karsilastirma",
+  "/aluminyum-sektorunde-cbam-see-hesaplama",
+  "/demir-celik-sektorunde-cbam",
+  "/cimento-sektorunde-cbam",
+  "/cbam-izleme-plani-nasil-hazirlanir",
+  "/cbam-kayit-sistemi-acd-basvuru",
+  "/cbam-sertifika-fiyatlari-2026-2027",
+  "/cbam-maliyet-hesaplama-ornek-vaka",
+  "/ab-ithalatcisi-tedarikci-beklentileri",
+  "/cbam-denetim-hazirlik-kontrol-listesi",
+  "/cbam-sikca-sorulan-sorular",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
