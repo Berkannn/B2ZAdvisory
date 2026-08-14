@@ -619,9 +619,9 @@
         }
       ],
       "toolCta": {
-        "title": "Our SEE Calculation Tool",
-        "description": "We're building an Excel-based calculation tool to speed up your aluminium SEE calculation.",
-        "placeholder": "[EXCEL TOOL CTA GOES HERE]"
+        "title": "Get Support with SEE Calculation",
+        "description": "Get in touch with us for detailed guidance on your aluminium SEE calculation.",
+        "buttonLabel": "Contact Us"
       },
       "relatedParagraph": "For an overview of general CBAM obligations in the aluminium sector, see our <sectorLink>sector page</sectorLink>; to see how these calculations translate into cost, take a look at our <caseStudyLink>worked case study</caseStudyLink>."
     },

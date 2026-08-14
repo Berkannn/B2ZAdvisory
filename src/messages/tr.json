@@ -619,9 +619,9 @@
         }
       ],
       "toolCta": {
-        "title": "SEE Hesaplama Aracımız",
-        "description": "Alüminyum SEE hesaplamanızı hızlandıracak Excel tabanlı hesaplama aracımızı hazırlıyoruz.",
-        "placeholder": "[BURAYA EXCEL ARACI CTA'SI GELECEK]"
+        "title": "SEE Hesaplama Konusunda Destek Alın",
+        "description": "Alüminyum SEE hesaplamanızla ilgili detaylı bilgi almak için bizimle iletişime geçin.",
+        "buttonLabel": "Bize Ulaşın"
       },
       "relatedParagraph": "Alüminyum sektöründeki genel CBAM yükümlülükleri için <sectorLink>sektör sayfamıza</sectorLink>, bu hesaplamaların maliyete nasıl yansıdığını görmek içinse <caseStudyLink>örnek vaka analizimize</caseStudyLink> göz atabilirsiniz."
     },

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Wrench } from "lucide-react";
+import { ArrowUpRight, Wrench } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import SectionHeading from "@/components/SectionHeading";
 import CtaBanner from "@/components/CtaBanner";
@@ -98,19 +98,22 @@ export default async function AluminiumSeeGuidePage({
 
       <section className="section-padding bg-paper">
         <div className="container-page max-w-3xl">
-          <div className="flex items-start gap-4 rounded-2xl border border-dashed border-brand-300 bg-brand-50/60 p-6">
-            <Wrench className="mt-0.5 h-5 w-5 shrink-0 text-brand-700" />
-            <div>
-              <h2 className="font-display text-base font-semibold text-carbon-900">
-                {t("toolCta.title")}
-              </h2>
-              <p className="mt-1 text-sm leading-relaxed text-carbon-600">
-                {t("toolCta.description")}
-              </p>
-              <p className="mt-3 text-xs font-medium uppercase tracking-wide text-brand-600">
-                {t("toolCta.placeholder")}
-              </p>
+          <div className="flex flex-col items-start gap-4 rounded-2xl border border-brand-200 bg-brand-50/60 p-6 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex items-start gap-4">
+              <Wrench className="mt-0.5 h-5 w-5 shrink-0 text-brand-700" />
+              <div>
+                <h2 className="font-display text-base font-semibold text-carbon-900">
+                  {t("toolCta.title")}
+                </h2>
+                <p className="mt-1 text-sm leading-relaxed text-carbon-600">
+                  {t("toolCta.description")}
+                </p>
+              </div>
             </div>
+            <Link href="/iletisim" className="btn-primary shrink-0">
+              {t("toolCta.buttonLabel")}
+              <ArrowUpRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </section>
